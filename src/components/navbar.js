@@ -11,12 +11,34 @@ import Image from 'next/image'
 
 export function StickyNavbar() {
     const [openNav, setOpenNav] = React.useState(false);
+    const [imgWidth, setimgWidth] = React.useState(200);
 
     React.useEffect(() => {
         window.addEventListener(
             "resize",
             () => window.innerWidth >= 960 && setOpenNav(false),
         );
+        window.addEventListener(
+            "scroll",
+            () => {
+                if (scrollY < 50) {
+                    document.getElementById('navbar').classList.add("!bg-transparent")
+                    setimgWidth(200)
+                }
+                else {
+                    document.getElementById('navbar').classList.remove("!bg-transparent")
+                    setimgWidth(100)
+                }
+            }
+        );
+        if (scrollY < 50) {
+            document.getElementById('navbar').classList.add("!bg-transparent")
+            setimgWidth(200)
+        }
+        else {
+            document.getElementById('navbar').classList.remove("!bg-transparent")
+            setimgWidth(100)
+        }
     }, []);
 
     const navList = (
@@ -27,8 +49,8 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
-                <a href="#" className="flex items-center">
-                    Pages
+                <a href="/" className="flex items-center">
+                    Trang chủ
                 </a>
             </Typography>
             <Typography
@@ -37,8 +59,8 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
-                <a href="#" className="flex items-center">
-                    Account
+                <a href="/AboutUs" className="flex items-center">
+                    Giới thiệu
                 </a>
             </Typography>
             <Typography
@@ -47,18 +69,8 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
-                <a href="#" className="flex items-center">
-                    Blocks
-                </a>
-            </Typography>
-            <Typography
-                as="li"
-                variant="small"
-                color="blue-gray"
-                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
-            >
-                <a href="#" className="flex items-center">
-                    Docs
+                <a href="/News" className="flex items-center">
+                    Tin tức
                 </a>
             </Typography>
             <Button size="md" className="mt-1 rounded-lg sm:mt-0 max-w-[4rem]" as="li">
@@ -87,13 +99,16 @@ export function StickyNavbar() {
 
     return (
         // <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll">
-        <Navbar className="fixed top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 border-none" id="navbar">
+        <Navbar className="fixed top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 border-none transition-all duration-1000 backdrop-blur-none bg-opacity-100 backdrop-saturate-100 shadow-none" id="navbar">
             <div className="flex items-center justify-between text-blue-gray-900">
-                <Image
-                    src='/vvc_logo.png'
-                    width={100}
-                    height={100}
-                />
+                <a href="/">
+                    <Image
+                        src='/vvc_logo.png'
+                        className="transition-all duration-1000 lg:m-2"
+                        width={imgWidth}
+                        height={100}
+                    />
+                </a>
                 <div className="flex items-center gap-4">
                     <div className="mr-4 hidden lg:block">{navList}</div>
                     <IconButton
