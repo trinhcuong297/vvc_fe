@@ -1,14 +1,18 @@
+import { Provider } from 'react-redux';
 import { FooterWithLogo } from '@/components/footer';
 import { StickyNavbar } from '@/components/navbar';
-import '@/styles/globals.css'
 import { ThemeProvider } from "@material-tailwind/react";
+import '@/styles/globals.css'
+import store from '@/redux/store';
 
 export default function App({ Component, pageProps }) {
   return (
-    <ThemeProvider>
-      <StickyNavbar />
-      <Component {...pageProps} />
-      <FooterWithLogo />
-    </ThemeProvider>
+    <Provider store={store}>
+      <ThemeProvider>
+        <StickyNavbar />
+        <Component {...pageProps} />
+        <FooterWithLogo />
+      </ThemeProvider>
+    </Provider>
   );
 }
