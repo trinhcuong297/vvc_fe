@@ -7,13 +7,14 @@ import {
     Typography,
     Carousel,
     Button,
-    IconButton
+    IconButton,
+    Textarea
 } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 
 export const getStaticPaths = async () => {
     const res = await fetch(
-        `http://localhost:3000/news/all`
+        `https://vvcbackend.onrender.com/news/all`
     );
     const result = await res.json();
     const paths = result ? result.map((tex) => {
@@ -66,14 +67,14 @@ export default function Page({ id }) {
 
     useEffect(() => {
         fetch(
-            `http://localhost:3000/news/id/${id}`
+            `https://vvcbackend.onrender.com/news/id/${id}`
         )
             .then((res) => res.json())
             .then((data) => {
                 setData(data);
             })
         fetch(
-            `http://localhost:3000/news/home_news/6`
+            `https://vvcbackend.onrender.com/news/home_news/6`
         )
             .then((res) => res.json())
             .then((data) => {
@@ -119,6 +120,36 @@ export default function Page({ id }) {
                             }}
                             suppressHydrationWarning={true}
                         />
+                        <hr className="my-4" />
+                        <div className="w-full flex flex-col items-center">
+                            <div className="relative w-[32rem] p-2 py-3">
+                                <Textarea variant="static" placeholder="Your Comment" rows={8} className="px-3 outline-[1px] rounded-lg focus:outline-1" />
+                                <div className="flex w-full justify-between py-1.5">
+                                    <IconButton variant="text" color="blue-gray" size="sm">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                            strokeWidth={2}
+                                            className="h-4 w-4"
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                                            />
+                                        </svg>
+                                    </IconButton>
+                                    <div className="flex gap-2">
+
+                                        <Button size="sm" className="rounded-md">
+                                            Post Comment
+                                        </Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm">
@@ -143,6 +174,7 @@ export default function Page({ id }) {
                     </div>
 
                 </div>
+
                 <hr />
                 <div className="container mx-auto p-4 my-6 space-y-2 text-center before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
                     <Typography

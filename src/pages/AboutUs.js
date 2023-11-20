@@ -14,7 +14,6 @@ import {
     Carousel,
     Button
 } from "@material-tailwind/react";
-import { HomeIcon, BellIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -24,7 +23,7 @@ export default function AboutUs() {
 
     useEffect(() => {
         fetch(
-            `http://localhost:3000/aboutus`
+            `https://vvcbackend.onrender.com/aboutus`
         )
             .then((res) => res.json())
             .then((data) => {
@@ -135,8 +134,16 @@ export default function AboutUs() {
                                 floated={true}
                                 shadow={true}
                                 color="transparent"
-                                className="absolute inset-0 m-0 h-full w-full rounded-none transition-all duration-1000 bg-[url('https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80')] bg-cover bg-center"
+                                className="absolute inset-0 m-0 h-full w-full rounded-none transition-all duration-1000 bg-cover bg-center"
                             >
+                                <div className="absolute h-full w-full flex items-center">
+                                    <Image
+                                        src={e?.cover_img}
+                                        className="lg:m-2 w-full"
+                                        width={200}
+                                        height={100}
+                                    />
+                                </div>
                                 <div className="absolute inset-0 h-0 w-full group-hover:h-full group-hover:bg-gradient-to-t group-hover:from-yellow-400/0 group-hover:via-yellow-300/80 group-hover:to-yellow-400/80 transition-all duration-1000" />
                                 <div
                                     className="mb-6 font-semibold leading-[1.5] absolute w-full flex flex-col items-center rounded-lg drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]"

@@ -10,6 +10,9 @@ module.exports = withMT({
   theme: {
     extend: {
     },
+    // backgroundImage: {
+    //   'blueCustom': "url('/public/bgBlue.png')",
+    // },
   },
   plugins: [],
   variants: {

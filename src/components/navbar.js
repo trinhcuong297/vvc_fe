@@ -69,6 +69,26 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
+                <a href="/Projects" className="flex items-center">
+                    Dự án
+                </a>
+            </Typography>
+            <Typography
+                as="li"
+                variant="small"
+                color="blue-gray"
+                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
+            >
+                <a href="/Hiring" className="flex items-center">
+                    Tuyển dụng
+                </a>
+            </Typography>
+            <Typography
+                as="li"
+                variant="small"
+                color="blue-gray"
+                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
+            >
                 <a href="/News" className="flex items-center">
                     Tin tức
                 </a>
@@ -90,7 +110,7 @@ export function StickyNavbar() {
                         stroke="#CFD8DC"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinejoin="round"
                     />
                 </svg>
             </Button>

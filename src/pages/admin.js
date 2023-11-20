@@ -18,18 +18,70 @@ import { useSelector, useDispatch } from 'react-redux'
 import { setLogin, setLogout } from "@/redux/feature/login";
 import { Meta } from "@/layout/meta";
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+
+const QuillNoSSRWrapper = dynamic(import('react-quill'), {
+    ssr: false,
+    loading: () => <p>Loading ...</p>,
+})
+const modules = {
+    toolbar: [
+        [{ header: '1' }, { header: '2' }, { font: [] }],
+        [{ size: [] }],
+        ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+        [{ 'color': [] }, { 'background': [] }],
+        [
+            { list: 'ordered' },
+            { list: 'bullet' },
+            { indent: '-1' },
+            { indent: '+1' },
+        ],
+        ['link', 'image', 'video'],
+        ['clean'],
+    ],
+    clipboard: {
+        // toggle to add extra line breaks when pasting HTML:
+        matchVisual: false,
+    },
+}
+/*
+ * Quill editor formats
+ * See https://quilljs.com/docs/formats/
+ */
+const formats = [
+    'header',
+    'font',
+    'size',
+    'bold',
+    'italic',
+    'underline',
+    'strike',
+    'blockquote',
+    'list',
+    'bullet',
+    'indent',
+    'link',
+    'image',
+    'video',
+]
 
 export default function LoginCard() {
-    const [activeTab, setActiveTab] = useState("html");
+    const [activeTab, setActiveTab] = useState("home");
+    const [loading, setLoading] = useState(0);
+    const [HomeData, setHomeData] = useState({});
+    const [AboutData, setAboutData] = useState({});
+    const [Hero_newsData, setHero_newsData] = useState({});
+    const [NewsData, setNewsData] = useState([]);
     const loginState = useSelector(state => state.loginState.value)
     const dispatch = useDispatch()
-    const handleLogin = (event) => {
+    const handleLogin = async (event) => {
         event.preventDefault();
         const Data = {
             Email: event.target.Email.value,
             Password: event.target.Password.value
         }
-        fetch(`http://localhost:3000/admin/login`, {
+        setLoading(1);
+        await fetch(`https://vvcbackend.onrender.com/admin/login`, {
             method: "POST",
             body: JSON.stringify(Data),
             headers: {
@@ -40,49 +92,64 @@ export default function LoginCard() {
             .then(res => res.json())
             .then(res => {
                 if (res == 1) {
+                    setLoading(0);
                     dispatch(setLogin())
                 }
                 else {
+                    setLoading(0);
                     dispatch(setLogout())
                 }
             })
     }
 
-    useEffect(() => { }, [loginState])
+    useEffect(() => {
+        if (loginState) {
+            fetch(
+                `https://vvcbackend.onrender.com/home`
+            )
+                .then((res) => res.json())
+                .then((data) => {
+                    setHomeData(data);
+                })
+
+            fetch(
+                `https://vvcbackend.onrender.com/news/all`
+            )
+                .then((res) => res.json())
+                .then((data) => {
+                    setNewsData(data);
+                })
+
+            fetch(
+                `https://vvcbackend.onrender.com/news/hero`
+            )
+                .then((res) => res.json())
+                .then((data) => {
+                    setHero_newsData(data);
+                })
+
+            fetch(
+                `https://vvcbackend.onrender.com/aboutus`
+            )
+                .then((res) => res.json())
+                .then((data) => {
+                    setAboutData(data);
+                })
+        }
+    }, [loginState])
     const data = [
         {
-            label: "HTML",
-            value: "html",
-            desc: `It really matters and then like it really doesn't matter.
-      What matters is the people who are sparked by it. And the people 
-      who are like offended by it, it doesn't matter.`,
+            label: "Trang chủ",
+            value: "home",
         },
         {
-            label: "React",
-            value: "react",
-            desc: `Because it's about motivating the doers. Because I'm here
-      to follow my dreams and inspire other people to follow their dreams, too.`,
+            label: "Giới thiệu",
+            value: "about",
         },
         {
-            label: "Vue",
-            value: "vue",
-            desc: `We're not always in the position that we want to be at.
-      We're constantly growing. We're constantly making mistakes. We're
-      constantly trying to express ourselves and actualize our dreams.`,
-        },
-        {
-            label: "Angular",
-            value: "angular",
-            desc: `Because it's about motivating the doers. Because I'm here
-      to follow my dreams and inspire other people to follow their dreams, too.`,
-        },
-        {
-            label: "Svelte",
-            value: "svelte",
-            desc: `We're not always in the position that we want to be at.
-      We're constantly growing. We're constantly making mistakes. We're
-      constantly trying to express ourselves and actualize our dreams.`,
-        },
+            label: "Tin tức",
+            value: "news",
+        }
     ];
     return (
         <div className="w-full h-screen mt-[12rem] flex justify-center">
@@ -104,9 +171,13 @@ export default function LoginCard() {
                         </div>
                     </CardBody>
                     <CardFooter className="pt-0">
-                        <Button variant="gradient" fullWidth type="submit">
+                        {loading ? <Button variant="gradient" fullWidth>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-full h-6 animate-spin">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                        </Button> : <Button variant="gradient" fullWidth type="submit">
                             Sign In
-                        </Button>
+                        </Button>}
                         <a href="/">
                             <Typography variant="small" className="mt-6 flex justify-center">
                                 Forgot your password?
@@ -135,9 +206,26 @@ export default function LoginCard() {
                     ))}
                 </TabsHeader>
                 <TabsBody>
-                    {data.map(({ value, desc }) => (
+                    {data.map(({ value }) => (
                         <TabPanel key={value} value={value}>
-                            {desc}
+                            {
+                                value == "home" ? <>
+
+                                </> : <></>
+                            }
+                            {
+                                value == "news" ? <>
+                                    <div className="w-full flex flex-col items-center">
+                                        <QuillNoSSRWrapper modules={modules} formats={formats} theme="snow" onChange={(e) => { console.log(e.valueOf()) }} className="w-3/4" />
+                                    </div>
+
+                                </> : <></>
+                            }
+                            {
+                                value == "about" ? <>
+                                    fsdg
+                                </> : <></>
+                            }
                         </TabPanel>
                     ))}
                 </TabsBody>

@@ -41,7 +41,7 @@ export default function News() {
 
     useEffect(() => {
         fetch(
-            `http://localhost:3000/news/page/${active}`
+            `https://vvcbackend.onrender.com/news/page/${active}`
         )
             .then((res) => res.json())
             .then((data) => {
@@ -49,7 +49,7 @@ export default function News() {
             })
 
         fetch(
-            `http://localhost:3000/news/home_news/3`
+            `https://vvcbackend.onrender.com/news/home_news/3`
         )
             .then((res) => res.json())
             .then((data) => {

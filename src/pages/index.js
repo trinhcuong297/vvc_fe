@@ -15,18 +15,25 @@ export default function Home() {
 
   const [data, setData] = useState({});
   const [news, setNews] = useState([]);
+  const [projects, setProjects] = useState([]);
 
   useEffect(() => {
     fetch(
-      `http://localhost:3000/home`
+      `https://vvcbackend.onrender.com/home`
     )
       .then((res) => res.json())
       .then((data) => {
         setData(data);
       })
-
     fetch(
-      `http://localhost:3000/news/home_news/6`
+      `https://vvcbackend.onrender.com/project`
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        setProjects(data);
+      })
+    fetch(
+      `https://vvcbackend.onrender.com/news/home_news/6`
     )
       .then((res) => res.json())
       .then((data) => {
@@ -36,9 +43,10 @@ export default function Home() {
 
   return <>
     <Meta title="VVC - Bảo trì, quản lý tòa nhà" description="Công ty TNHH VVC Green - Bảo trì, bảo dưỡng, vận hành tòa nhà" />
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center bg-[#092e4a]">
       <Carousel
         className="h-screen"
+        loop={true}
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill("").map((_, i) => (
@@ -56,30 +64,32 @@ export default function Home() {
         {data?.Hero?.map((e, index) => {
           return <div className="relative h-full w-full" key={index}>
             <img
-              src={e.img_url}
+              src={e?.img_url}
               alt="Hero"
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/30">
               <div className="w-3/4 text-center md:w-2/4">
                 <Typography
                   variant="h1"
                   color="white"
                   className="mb-4 text-3xl md:text-4xl lg:text-5xl"
                 >
-                  {e.cover}
+                  {e?.cover}
                 </Typography>
                 <Typography
                   variant="lead"
                   color="white"
                   className="mb-12 opacity-80"
                 >
-                  {e.detail}
+                  {e?.detail}
                 </Typography>
                 <div className="flex justify-center gap-2">
-                  <Button size="lg" color="white">
-                    Explore
-                  </Button>
+                  <a href="/AboutUs">
+                    <Button size="lg" color="white">
+                      Explore
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -93,15 +103,15 @@ export default function Home() {
             <div className="text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
               <Typography
                 variant="h1"
-                color="gray-800"
-                className="mb-4 text-3xl md:text-4xl lg:text-5xl w-full"
+                color=""
+                className="mb-4 text-gray-100 text-3xl md:text-4xl lg:text-5xl w-full"
               >
                 {data?.Intro?.left}
               </Typography>
             </div>
           </div>
-          <div className="relative col-span-12 px-4 space-y-6">
-            <div className="col-span-12 space-y-12 relative px-4 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:bg-yellow-600 before:drop-shadow-[5px_5px_10px_rgba(255,255,153,1)]">
+          <div className="relative col-span-12 px-2 space-y-6">
+            <div className="col-span-12 text-gray-100 font-md space-y-12 relative px-4 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:bg-yellow-600 before:drop-shadow-[5px_5px_10px_rgba(255,255,153,1)]">
               <div
                 className="text-justify"
                 dangerouslySetInnerHTML={{
@@ -168,7 +178,72 @@ export default function Home() {
           })}
         </div>
       </section>
-      <section className="text-gray-800 w-full py-12">
+      <section className="text-gray-800 w-full py-12 flex flex-col items-center">
+        <div className="container mx-auto p-4 mt-6 space-y-2 text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
+          <Typography
+            variant="h1"
+            color="yellow-400"
+            className="mb-4 text-3xl md:text-4xl lg:text-5xl text-yellow-400 shadow-inner"
+          >
+            DỰ ÁN
+          </Typography>
+        </div>
+        <Carousel
+          className="h-fit w-3/4 rounded-lg "
+          loop={true}
+          navigation={({ setActiveIndex, activeIndex, length }) => (
+            <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+              {new Array(length).fill("").map((_, i) => (
+                <span
+                  key={i}
+                  className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
+                    }`}
+                  onClick={() => setActiveIndex(i)}
+                />
+              ))}
+            </div>
+          )}
+        >
+
+          {projects?.map((e, index) => {
+            return <div className="relative h-[30rem] w-full flex flex-row-reverse" key={index}>
+              <img
+                src={e?.img_url}
+                alt="Hero"
+                className="w-1/2 object-cover"
+              />
+              <div className="grid h-full w-full place-items-center bg-black/30 pt-[2rem]">
+                <div className="w-full px-4 text-center">
+                  <Typography
+                    variant="h1"
+                    color="white"
+                    className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+                  >
+                    {e?.cover}
+                  </Typography>
+                  <Typography
+                    variant="lead"
+                    color="white"
+                    className="mb-12 opacity-80 overflow-hidden"
+                  >
+                    {e?.post?.head}
+                  </Typography>
+                  {/* <div className="flex justify-center gap-2">
+                    <a href="/Projects">
+                      <Button size="lg" color="white">
+                        Explore
+                      </Button>
+                    </a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          })}
+
+        </Carousel>
+
+      </section>
+      <section className="text-gray-800 w-full py-12 bg-gray-100">
         <div className="container mx-auto p-4 my-6 space-y-2 text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
           <Typography
             variant="h1"
