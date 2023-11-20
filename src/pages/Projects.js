@@ -48,7 +48,7 @@ export default function Projects() {
                         className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/40 pt-[2rem]">
-                        <div className="w-1/2 px-4 text-center">
+                        <div className="w-3/4 md:w-1/2 px-4 text-center">
                             <Typography
                                 variant="h1"
                                 color="white"

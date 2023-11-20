@@ -215,9 +215,18 @@ export default function Home() {
               <img
                 src={e?.img_url}
                 alt="Hero"
-                className="w-1/2 object-cover"
+                className="w-full md:w-1/2 object-cover"
               />
-              <div className="grid h-full w-full place-items-center bg-black/30 pt-[2rem]">
+              <div className="absolute w-full px-4 text-center bg-gray-800/60 py-2">
+                <Typography
+                  variant="h2"
+                  color="white"
+                  className="text-2xl md:text-4xl lg:text-5xl "
+                >
+                  {e?.cover}
+                </Typography>
+              </div>
+              <div className="h-full w-full place-items-center bg-black/30 pt-[2rem] hidden md:grid">
                 <div className="w-full px-4 text-center">
                   <Typography
                     variant="h1"
