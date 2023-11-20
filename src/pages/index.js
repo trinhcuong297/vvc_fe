@@ -217,7 +217,7 @@ export default function Home() {
                 alt="Hero"
                 className="w-full md:w-1/2 object-cover"
               />
-              <div className="absolute w-full px-4 text-center bg-gray-800/60 py-2">
+              <div className="absolute w-full px-4 text-center bg-gray-800/60 py-2 md:hidden">
                 <Typography
                   variant="h2"
                   color="white"
