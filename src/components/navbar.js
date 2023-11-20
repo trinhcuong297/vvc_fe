@@ -172,7 +172,7 @@ export function StickyNavbar() {
                     </IconButton>
                 </div>
             </div>
-            <MobileNav open={openNav}>
+            <MobileNav open={openNav} className="bg-white">
                 {navList}
             </MobileNav>
         </Navbar>
