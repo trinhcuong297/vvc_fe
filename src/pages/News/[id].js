@@ -10,6 +10,7 @@ import {
     IconButton,
     Textarea
 } from "@material-tailwind/react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export const getStaticPaths = async () => {
@@ -94,12 +95,12 @@ export default function Page({ id }) {
                         <Typography className="mb-2 text-gray-400">
                             <i>{data?.created_time}</i>
                         </Typography>
-                        <a
+                        <Link
                             href="#"
                             className="py-2 text-green-700 inline-flex items-center justify-center mb-2"
                         >
                             Cryptocurrency
-                        </a>
+                        </Link>
                     </div>
 
                     <img src={data?.cover_img} className="h-[28em] w-full object-cover lg:rounded" />
@@ -256,7 +257,7 @@ export default function Page({ id }) {
                                 </Typography>...
                             </CardBody>
                             <CardFooter className="pt-0 flex flex">
-                                <a href={`/News/${news[0]?.id}`}><Button>Read More</Button></a>
+                                <Link href={`/News/${news[0]?.id}`}><Button>Read More</Button></Link>
                             </CardFooter>
                         </Card>
                         <Card className="mt-6 w-1/3 m-6">
@@ -278,7 +279,7 @@ export default function Page({ id }) {
                                 </Typography>...
                             </CardBody>
                             <CardFooter className="pt-0 flex flex">
-                                <a href={`/News/${news[1]?.id}`}><Button>Read More</Button></a>
+                                <Link href={`/News/${news[1]?.id}`}><Button>Read More</Button></Link>
                             </CardFooter>
                         </Card>
                         <Card className="mt-6 w-1/3 m-6">
@@ -300,7 +301,7 @@ export default function Page({ id }) {
                                 </Typography>...
                             </CardBody>
                             <CardFooter className="pt-0 flex flex">
-                                <a href={`/News/${news[2]?.id}`}><Button>Read More</Button></a>
+                                <Link href={`/News/${news[2]?.id}`}><Button>Read More</Button></Link>
                             </CardFooter>
                         </Card>
                     </div>
@@ -325,7 +326,7 @@ export default function Page({ id }) {
                                 </Typography>...
                             </CardBody>
                             <CardFooter className="pt-0 flex flex">
-                                <a href={`/News/${news[3]?.id}`}><Button>Read More</Button></a>
+                                <Link href={`/News/${news[3]?.id}`}><Button>Read More</Button></Link>
                             </CardFooter>
                         </Card>
                         <Card className="mt-6 w-1/3 m-6">
@@ -347,7 +348,7 @@ export default function Page({ id }) {
                                 </Typography>...
                             </CardBody>
                             <CardFooter className="pt-0 flex flex">
-                                <a href={`/News/${news[4]?.id}`}><Button>Read More</Button></a>
+                                <Link href={`/News/${news[4]?.id}`}><Button>Read More</Button></Link>
                             </CardFooter>
                         </Card>
                         <Card className="mt-6 w-1/3 m-6">
@@ -369,7 +370,7 @@ export default function Page({ id }) {
                                 </Typography>...
                             </CardBody>
                             <CardFooter className="pt-0 flex flex">
-                                <a href={`/News/${news[5]?.id}`}><Button>Read More</Button></a>
+                                <Link href={`/News/${news[5]?.id}`}><Button>Read More</Button></Link>
                             </CardFooter>
                         </Card>
                     </div>

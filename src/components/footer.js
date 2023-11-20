@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 export function FooterWithLogo() {
     return (
@@ -24,8 +25,8 @@ export function FooterWithLogo() {
                     <div>
                         <h6 className="font-semibold text-gray-700 mb-4 flex flex-row-reverse">Company</h6>
                         <ul>
-                            <li> <a href="" className="block text-gray-600 py-2 flex flex-row-reverse">Team</a> </li>
-                            <li> <a href="" className="block text-gray-600 py-2 flex flex-row-reverse">About us</a> </li>
+                            <li> <Link href="/" className="block text-gray-600 py-2 flex flex-row-reverse">Team</Link> </li>
+                            <li> <Link href="/" className="block text-gray-600 py-2 flex flex-row-reverse">About us</Link> </li>
                         </ul>
                     </div>
                 </div>
@@ -34,9 +35,9 @@ export function FooterWithLogo() {
                     <div>
                         <h6 className="font-semibold text-gray-700 mb-4 flex flex-row-reverse">Content</h6>
                         <ul>
-                            <li> <a href="" className="block text-gray-600 py-2 flex flex-row-reverse">Privacy Policy</a> </li>
-                            <li> <a href="" className="block text-gray-600 py-2 flex flex-row-reverse">Terms & Conditions</a> </li>
-                            <li> <a href="" className="block text-gray-600 py-2 flex flex-row-reverse">Documentation</a> </li>
+                            <li> <Link href="/" className="block text-gray-600 py-2 flex flex-row-reverse">Privacy Policy</Link> </li>
+                            <li> <Link href="/" className="block text-gray-600 py-2 flex flex-row-reverse">Terms & Conditions</Link> </li>
+                            <li> <Link href="/" className="block text-gray-600 py-2 flex flex-row-reverse">Documentation</Link> </li>
                         </ul>
                     </div>
                 </div>
@@ -45,8 +46,8 @@ export function FooterWithLogo() {
                     <div>
                         <h6 className="font-semibold text-gray-700 mb-4 flex flex-row-reverse">Company</h6>
                         <ul>
-                            <li> <a href="" className="block text-gray-600 py-2 flex flex-row-reverse">Team</a> </li>
-                            <li> <a href="" className="block text-gray-600 py-2 flex flex-row-reverse">About us</a> </li>
+                            <li> <Link href="/" className="block text-gray-600 py-2 flex flex-row-reverse">Team</Link> </li>
+                            <li> <Link href="/" className="block text-gray-600 py-2 flex flex-row-reverse">About us</Link> </li>
                         </ul>
                     </div>
                 </div>

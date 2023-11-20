@@ -19,6 +19,7 @@ import { setLogin, setLogout } from "@/redux/feature/login";
 import { Meta } from "@/layout/meta";
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 
 const QuillNoSSRWrapper = dynamic(import('react-quill'), {
     ssr: false,
@@ -178,11 +179,11 @@ export default function LoginCard() {
                         </Button> : <Button variant="gradient" fullWidth type="submit">
                             Sign In
                         </Button>}
-                        <a href="/">
+                        <Link href="/">
                             <Typography variant="small" className="mt-6 flex justify-center">
                                 Forgot your password?
                             </Typography>
-                        </a>
+                        </Link>
                     </CardFooter>
                 </Card>
             </form>

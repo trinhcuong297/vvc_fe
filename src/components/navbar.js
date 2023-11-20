@@ -7,6 +7,7 @@ import {
     IconButton,
 } from "@material-tailwind/react";
 import Image from 'next/image'
+import Link from "next/link";
 
 
 export function StickyNavbar() {
@@ -49,9 +50,10 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
-                <a href="/" className="flex items-center">
+
+                <Link href="/" className="flex items-center">
                     Trang chủ
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -59,9 +61,9 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
-                <a href="/AboutUs" className="flex items-center">
+                <Link href="/AboutUs" className="flex items-center">
                     Giới thiệu
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -69,9 +71,9 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
-                <a href="/Projects" className="flex items-center">
+                <Link href="/Projects" className="flex items-center">
                     Dự án
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -79,9 +81,9 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
-                <a href="/Hiring" className="flex items-center">
+                <Link href="/Hiring" className="flex items-center">
                     Tuyển dụng
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -89,9 +91,9 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
-                <a href="/News" className="flex items-center">
+                <Link href="/News" className="flex items-center">
                     Tin tức
-                </a>
+                </Link>
             </Typography>
             <Button size="md" className="mt-1 rounded-lg sm:mt-0 max-w-[4rem]" as="li">
                 <svg
@@ -121,14 +123,14 @@ export function StickyNavbar() {
         // <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll">
         <Navbar className="fixed top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 border-none transition-all duration-1000 backdrop-blur-none bg-opacity-100 backdrop-saturate-100 shadow-none" id="navbar">
             <div className="flex items-center justify-between text-blue-gray-900">
-                <a href="/">
+                <Link href="/">
                     <Image
                         src='/vvc_logo.png'
                         className="transition-all duration-1000 lg:m-2"
                         width={imgWidth}
                         height={100}
                     />
-                </a>
+                </Link>
                 <div className="flex items-center gap-4">
                     <div className="mr-4 hidden lg:block">{navList}</div>
                     <IconButton

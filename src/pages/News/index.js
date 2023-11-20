@@ -13,6 +13,7 @@ import {
 } from "@material-tailwind/react";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function News() {
 
@@ -98,11 +99,11 @@ export default function News() {
                             {data[0]?.pre_content}
                         </Typography>
                         <div className="flex justify-center gap-2">
-                            <a href={`/News/${data[0]?.id}`}>
+                            <Link href={`/News/${data[0]?.id}`}>
                                 <Button size="lg" color="white">
                                     Explore
                                 </Button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -130,11 +131,11 @@ export default function News() {
                             {data[1]?.pre_content}
                         </Typography>
                         <div className="flex justify-center gap-2">
-                            <a href={`/News/${data[1]?.id}`}>
+                            <Link href={`/News/${data[1]?.id}`}>
                                 <Button size="lg" color="white">
                                     Explore
                                 </Button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -162,11 +163,11 @@ export default function News() {
                             {data[2]?.pre_content}
                         </Typography>
                         <div className="flex justify-center gap-2">
-                            <a href={`/News/${data[2]?.id}`}>
+                            <Link href={`/News/${data[2]?.id}`}>
                                 <Button size="lg" color="white">
                                     Explore
                                 </Button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -202,10 +203,10 @@ export default function News() {
                             />
                         </CardHeader>
                         <CardBody>
-                            <a href={`/News/${e?.id}`}><Typography variant="h4" color="blue-gray" className="hover:text-yellow-800">
+                            <Link href={`/News/${e?.id}`}><Typography variant="h4" color="blue-gray" className="hover:text-yellow-800">
                                 {e?.title}
                             </Typography>
-                            </a>
+                            </Link>
                             <Typography variant="lead" color="gray" className="mt-3 font-normal h-24 overflow-hidden">
                                 {e?.pre_content}
                             </Typography>
@@ -214,7 +215,7 @@ export default function News() {
                         <CardFooter className="flex items-center justify-between">
                             <div className="flex items-center -space-x-3">
                                 <Tooltip content="Natali Craig">
-                                    <Avatar
+                                    <Linkvatar
                                         size="sm"
                                         variant="circular"
                                         alt="natali craig"
@@ -237,7 +238,7 @@ export default function News() {
                     onClick={prev}
                     disabled={active === 1}
                 >
-                    <ArrowLeftIcon strokeWidth={2} className="h-4 w-4" /> Previous
+                    <LinkrrowLeftIcon strokeWidth={2} className="h-4 w-4" /> Previous
                 </Button>
                 <div className="flex items-center gap-2">
                     <IconButton {...getItemProps(1)}>1</IconButton>
@@ -253,7 +254,7 @@ export default function News() {
                     disabled={active === 5}
                 >
                     Next
-                    <ArrowRightIcon strokeWidth={2} className="h-4 w-4" />
+                    <LinkrrowRightIcon strokeWidth={2} className="h-4 w-4" />
                 </Button>
             </div>
         </div>

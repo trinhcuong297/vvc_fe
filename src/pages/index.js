@@ -9,6 +9,7 @@ import {
   Button,
   IconButton
 } from "@material-tailwind/react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -85,11 +86,11 @@ export default function Home() {
                   {e?.detail}
                 </Typography>
                 <div className="flex justify-center gap-2">
-                  <a href="/AboutUs">
+                  <Link href="/AboutUs">
                     <Button size="lg" color="white">
                       Explore
                     </Button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -150,7 +151,7 @@ export default function Home() {
                 </Typography>
               </div>
               <div className="space-y-1 leadi">
-                <a href={`${e?.link}`}>
+                <Link href={`${e?.link}`}>
                   <IconButton
                     variant="text"
                     color="black"
@@ -172,7 +173,7 @@ export default function Home() {
                       />
                     </svg>
                   </IconButton>
-                </a>
+                </Link>
               </div>
             </div>
           })}
@@ -229,11 +230,11 @@ export default function Home() {
                     {e?.post?.head}
                   </Typography>
                   {/* <div className="flex justify-center gap-2">
-                    <a href="/Projects">
+                    <Link href="/Projects">
                       <Button size="lg" color="white">
                         Explore
                       </Button>
-                    </a>
+                    </Link>
                   </div> */}
                 </div>
               </div>
@@ -329,7 +330,7 @@ export default function Home() {
                   </Typography>...
                 </CardBody>
                 <CardFooter className="pt-0 flex flex">
-                  <a href={`/News/${news[0]?.id}`}><Button>Read More</Button></a>
+                  <Link href={`/News/${news[0]?.id}`}><Button>Read More</Button></Link>
                 </CardFooter>
               </Card>
             </div>
@@ -406,7 +407,7 @@ export default function Home() {
                 </Typography>...
               </CardBody>
               <CardFooter className="pt-0 flex flex">
-                <a href={`/News/${news[0]?.id}`}><Button>Read More</Button></a>
+                <Link href={`/News/${news[0]?.id}`}><Button>Read More</Button></Link>
               </CardFooter>
             </Card>
             <Card className="mt-6 w-1/3 m-2">
@@ -428,7 +429,7 @@ export default function Home() {
                 </Typography>...
               </CardBody>
               <CardFooter className="pt-0 flex flex">
-                <a href={`/News/${news[1]?.id}`}><Button>Read More</Button></a>
+                <Link href={`/News/${news[1]?.id}`}><Button>Read More</Button></Link>
               </CardFooter>
             </Card>
             <Card className="mt-6 w-1/3 m-2">
@@ -450,7 +451,7 @@ export default function Home() {
                 </Typography>...
               </CardBody>
               <CardFooter className="pt-0 flex flex">
-                <a href={`/News/${news[2]?.id}`}><Button>Read More</Button></a>
+                <Link href={`/News/${news[2]?.id}`}><Button>Read More</Button></Link>
               </CardFooter>
             </Card>
           </div>
@@ -475,7 +476,7 @@ export default function Home() {
                 </Typography>...
               </CardBody>
               <CardFooter className="pt-0 flex flex">
-                <a href={`/News/${news[3]?.id}`}><Button>Read More</Button></a>
+                <Link href={`/News/${news[3]?.id}`}><Button>Read More</Button></Link>
               </CardFooter>
             </Card>
             <Card className="mt-6 w-1/3 m-2">
@@ -497,7 +498,7 @@ export default function Home() {
                 </Typography>...
               </CardBody>
               <CardFooter className="pt-0 flex flex">
-                <a href={`/News/${news[4]?.id}`}><Button>Read More</Button></a>
+                <Link href={`/News/${news[4]?.id}`}><Button>Read More</Button></Link>
               </CardFooter>
             </Card>
             <Card className="mt-6 w-1/3 m-2">
@@ -519,7 +520,7 @@ export default function Home() {
                 </Typography>...
               </CardBody>
               <CardFooter className="pt-0 flex flex">
-                <a href={`/News/${news[5]?.id}`}><Button>Read More</Button></a>
+                <Link href={`/News/${news[5]?.id}`}><Button>Read More</Button></Link>
               </CardFooter>
             </Card>
           </div>

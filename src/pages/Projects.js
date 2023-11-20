@@ -3,6 +3,7 @@ import {
     Typography,
     Carousel,
 } from "@material-tailwind/react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Projects() {
@@ -61,11 +62,11 @@ export default function Projects() {
                                 {e?.post?.head}
                             </Typography>
                             {/* <div className="flex justify-center gap-2">
-                    <a href="/Projects">
+                    <Link href="/Projects">
                       <Button size="lg" color="white">
                         Explore
                       </Button>
-                    </a>
+                    </Link>
                   </div> */}
                         </div>
                     </div>
@@ -96,11 +97,11 @@ export default function Projects() {
                                     <div>
                                         <div className="flex items-center">
                                             <h3 className="text-2xl font-bold tracki sm:text-3xl mr-3">{e?.cover}</h3>
-                                            <a className="" href={e?.link}>
+                                            <Link className="" href={e?.link}>
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
                                                 </svg>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <p className="mt-3 text-lg dark:text-gray-400">{e?.post?.head}</p>
                                         <div className="mt-12 space-y-6">
@@ -149,9 +150,9 @@ export default function Projects() {
                                         </div>
                                     </div>
                                     <div aria-hidden="true" className="mt-10 lg:mt-0">
-                                        <a href={e?.link} className="">
+                                        <Link href={e?.link} className="">
                                             <img src={e?.img_url} alt="" className="mx-auto rounded-lg shadow-lg" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </> : <>
@@ -160,11 +161,11 @@ export default function Projects() {
                                         <div className="lg:col-start-2">
                                             <div className="flex items-center">
                                                 <h3 className="text-2xl font-bold tracki sm:text-3xl mr-3">{e?.cover}</h3>
-                                                <a className="" href={e?.link}>
+                                                <Link className="" href={e?.link}>
                                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
                                                     </svg>
-                                                </a>
+                                                </Link>
                                             </div>
                                             <p className="mt-3 text-lg dark:text-gray-400">{e?.post?.head}</p>
                                             <div className="mt-12 space-y-6">
@@ -213,9 +214,9 @@ export default function Projects() {
                                             </div>
                                         </div>
                                         <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-                                            <a href={e?.link} className="">
+                                            <Link href={e?.link} className="">
                                                 <img src={e?.img_url} alt="" className="mx-auto rounded-lg shadow-lg" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -270,7 +271,7 @@ export default function Projects() {
                                     {e?.detail}
                                 </Typography>
 
-                                <Avatar
+                                <Linkvatar
                                     size="xl"
                                     variant="circular"
                                     alt="tania andrew"
