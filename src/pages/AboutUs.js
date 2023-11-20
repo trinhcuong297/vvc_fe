@@ -16,21 +16,21 @@ import {
 } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { About_Data } from "@/Data";
 
 export default function AboutUs() {
 
     const [data, setData] = useState({});
 
     useEffect(() => {
-        fetch(
-            `https://vvcbackend.onrender.com/aboutus`
-        )
-            .then((res) => res.json())
-            .then((data) => {
-                setData(data);
-            })
-
-
+        // fetch(
+        //     `https://vvcbackend.onrender.com/aboutus`
+        // )
+        //     .then((res) => res.json())
+        //     .then((data) => {
+        //         setData(data);
+        //     })
+        setData(About_Data);
     }, []);
 
     return <>

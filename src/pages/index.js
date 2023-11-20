@@ -1,3 +1,4 @@
+import { Home_Data, News_data, Project_Data } from "@/Data";
 import { Meta } from "@/layout/meta";
 import {
   Card,
@@ -19,27 +20,30 @@ export default function Home() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch(
-      `https://vvcbackend.onrender.com/home`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data);
-      })
-    fetch(
-      `https://vvcbackend.onrender.com/project`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        setProjects(data);
-      })
-    fetch(
-      `https://vvcbackend.onrender.com/news/home_news/6`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        setNews(data);
-      })
+    // fetch(
+    //   `https://vvcbackend.onrender.com/home`
+    // )
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     setData(data);
+    //   })
+    // fetch(
+    //   `https://vvcbackend.onrender.com/project`
+    // )
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     setProjects(data);
+    //   })
+    // fetch(
+    //   `https://vvcbackend.onrender.com/news/home_news/6`
+    // )
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     setNews(data);
+    //   })
+    setData(Home_Data);
+    setNews(News_data.slice(0, 6));
+    setProjects(Project_Data);
   }, []);
 
   return <>

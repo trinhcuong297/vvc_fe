@@ -1,3 +1,4 @@
+import { Project_Data } from "@/Data";
 import { Meta } from "@/layout/meta";
 import {
     Typography,
@@ -11,13 +12,14 @@ export default function Projects() {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch(
-            `https://vvcbackend.onrender.com/project`
-        )
-            .then((res) => res.json())
-            .then((data) => {
-                setProjects(data);
-            })
+        // fetch(
+        //     `https://vvcbackend.onrender.com/project`
+        // )
+        //     .then((res) => res.json())
+        //     .then((data) => {
+        //         setProjects(data);
+        //     })
+        setProjects(Project_Data);
     }, []);
     return <>
         <Meta title="VVC - Dự án" description="Công ty TNHH VVC Green - Bảo trì, bảo dưỡng, vận hành tòa nhà" />

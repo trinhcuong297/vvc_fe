@@ -14,6 +14,7 @@ import {
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { News_data } from "@/Data";
 
 export default function News() {
 
@@ -41,21 +42,23 @@ export default function News() {
     };
 
     useEffect(() => {
-        fetch(
-            `https://vvcbackend.onrender.com/news/page/${active}`
-        )
-            .then((res) => res.json())
-            .then((data) => {
-                setNews(data);
-            })
+        // fetch(
+        //     `https://vvcbackend.onrender.com/news/page/${active}`
+        // )
+        //     .then((res) => res.json())
+        //     .then((data) => {
+        //         setNews(data);
+        //     })
 
-        fetch(
-            `https://vvcbackend.onrender.com/news/home_news/3`
-        )
-            .then((res) => res.json())
-            .then((data) => {
-                setData(data);
-            })
+        // fetch(
+        //     `https://vvcbackend.onrender.com/news/home_news/3`
+        // )
+        //     .then((res) => res.json())
+        //     .then((data) => {
+        //         setData(data);
+        //     })
+        setData(News_data.slice(0, 3))
+        setNews(News_data.slice((active - 1) * 20, active * 20))
     }, [active]);
 
     return <>

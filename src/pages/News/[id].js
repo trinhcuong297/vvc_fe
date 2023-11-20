@@ -1,3 +1,4 @@
+import { News_data } from "@/Data";
 import { Meta } from "@/layout/meta";
 import {
     Card,
@@ -14,10 +15,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export const getStaticPaths = async () => {
-    const res = await fetch(
-        `https://vvcbackend.onrender.com/news/all`
-    );
-    const result = await res.json();
+    // const res = await fetch(
+    //     `https://vvcbackend.onrender.com/news/all`
+    // );
+    // const result = await res.json();
+    const result = News_data;
     const paths = result ? result.map((tex) => {
         return {
             params: {
@@ -67,20 +69,22 @@ export default function Page({ id }) {
     };
 
     useEffect(() => {
-        fetch(
-            `https://vvcbackend.onrender.com/news/id/${id}`
-        )
-            .then((res) => res.json())
-            .then((data) => {
-                setData(data);
-            })
-        fetch(
-            `https://vvcbackend.onrender.com/news/home_news/6`
-        )
-            .then((res) => res.json())
-            .then((data) => {
-                setNews(data);
-            })
+        // fetch(
+        //     `https://vvcbackend.onrender.com/news/id/${id}`
+        // )
+        //     .then((res) => res.json())
+        //     .then((data) => {
+        //         setData(data);
+        //     })
+        // fetch(
+        //     `https://vvcbackend.onrender.com/news/home_news/6`
+        // )
+        //     .then((res) => res.json())
+        //     .then((data) => {
+        //         setNews(data);
+        //     })
+        setData(News_data.find((e) => e.id.toString() == id.toString()))
+        setNews(News_data.slice(0, 6))
     }, []);
     return <div>
         <Meta title="VVC - Tin tức" description="Công ty TNHH VVC Green - Bảo trì, bảo dưỡng, vận hành tòa nhà" />
