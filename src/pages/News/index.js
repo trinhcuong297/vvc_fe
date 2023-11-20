@@ -215,7 +215,7 @@ export default function News() {
                         <CardFooter className="flex items-center justify-between">
                             <div className="flex items-center -space-x-3">
                                 <Tooltip content="Natali Craig">
-                                    <Linkvatar
+                                    <Avatar
                                         size="sm"
                                         variant="circular"
                                         alt="natali craig"
@@ -238,7 +238,7 @@ export default function News() {
                     onClick={prev}
                     disabled={active === 1}
                 >
-                    <LinkrrowLeftIcon strokeWidth={2} className="h-4 w-4" /> Previous
+                    <ArrowLeftIcon strokeWidth={2} className="h-4 w-4" /> Previous
                 </Button>
                 <div className="flex items-center gap-2">
                     <IconButton {...getItemProps(1)}>1</IconButton>
@@ -254,7 +254,7 @@ export default function News() {
                     disabled={active === 5}
                 >
                     Next
-                    <LinkrrowRightIcon strokeWidth={2} className="h-4 w-4" />
+                    <ArrowRightIcon strokeWidth={2} className="h-4 w-4" />
                 </Button>
             </div>
         </div>
