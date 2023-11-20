@@ -128,7 +128,7 @@ export default function AboutUs() {
                     return <div key={index} className="my-4 md:mx-4 lg:mx-12">
                         <Card
                             shadow={true}
-                            className="relative grid h-[32rem] w-full w-[28rem] items-end justify-center overflow-hidden text-center group transition duration-1000"
+                            className="relative grid h-[32rem] w-[20rem] md:w-[28rem] items-end justify-center overflow-hidden text-center group transition duration-1000"
                         >
                             <CardHeader
                                 floated={true}
@@ -139,9 +139,8 @@ export default function AboutUs() {
                                 <div className="absolute h-full w-full flex items-center">
                                     <Image
                                         src={e?.cover_img}
-                                        className="lg:m-2 w-full"
-                                        width={200}
-                                        height={100}
+                                        className="lg:m-2 !object-contain px-2"
+                                        fill
                                     />
                                 </div>
                                 <div className="absolute inset-0 h-0 w-full group-hover:h-full group-hover:bg-gradient-to-t group-hover:from-yellow-400/0 group-hover:via-yellow-300/80 group-hover:to-yellow-400/80 transition-all duration-1000" />
