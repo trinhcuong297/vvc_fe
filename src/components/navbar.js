@@ -95,7 +95,17 @@ export function StickyNavbar() {
                     Tin tức
                 </Link>
             </Typography>
-            <Button size="md" className="mt-1 rounded-lg sm:mt-0 max-w-[4rem]" as="li">
+            <Typography
+                as="li"
+                variant="small"
+                color="blue-gray"
+                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
+            >
+                <Link href="/Video" className="flex items-center">
+                    Video
+                </Link>
+            </Typography>
+            {/* <Button size="md" className="mt-1 rounded-lg sm:mt-0 max-w-[4rem]" as="li">
                 <svg
                     width="13"
                     height="14"
@@ -115,7 +125,7 @@ export function StickyNavbar() {
                         strokeLinejoin="round"
                     />
                 </svg>
-            </Button>
+            </Button> */}
         </ul>
     );
 

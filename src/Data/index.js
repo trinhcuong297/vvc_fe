@@ -13,7 +13,15 @@ const Home_Data = {
     ],
     Intro: {
         left: "GIỚI THIỆU",
-        right: "Công ty TNHH VVC GREEN tên thương hiệu là VVC xin gửi tới Quý khách hàng lời chúc tốt đẹp nhất. Kính chúc Quý khách hàng và gia đình sức khỏe, thành công, hạnh phúc trong cuộc sống!<br/>Mọi hoạt động của VVC đều hướng tới xây dựng sự tin tưởng và đem lại lợi ích tối đa tới đối tác và khách hàng; luôn tâm huyết, sáng tạo trong quá trình xây dựng và phát triển thương hiệu; coi đó là lợi ích cốt lõi của chính công ty.<br/>Ban lãnh đạo VVC  cam kết bằng sự tận tâm, nhiệt huyết của cũng như sự đoàn kết, nỗ lực, chia sẻ của toàn thể cán bộ, nhân viên, chúng tôi tin tưởng sẽ đạt được sự hài lòng của Quý khách hàng, sự tín nhiệm của đối tác và các chủ đầu tư, phấn đấu trở thành một trong những thương hiệu mạnh tại Việt Nam trong lĩnh vực tư vấn vận hành và bảo trì hệ thống kỹ thuật tòa nhà."
+        right: `
+        &nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVC”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động trong những năm gần đây, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hà Nội. Với quy mô doanh nghiệp và tính chuyên nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện.
+Để duy trì niềm tin nơi khách hàng, VVCG nhận thấy chất lượng nhân sự là yêu tố cốt lõi để doanh nghiệp có thể phát triển bền vững.<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Do vậy, trong suốt thời gian hoạt động, VVC đã quy tụ được rất nhiều nhân sự có bề dày kinh nghiệm làm việc tại các tập đoàn bất động sản quốc tế lớn cũng như các tập đoàn xây dựng có tên tuổi như: Vinaconex, CBRE, Savills, JLL,…<br/><br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Tự tin về chất lượng nhân sự, VVCG cũng áp dụng các công nghệ mới, thiết bị thi công hiện đại để nâng cao chất lượng dịch vụ mà VVCG đang cung cấp. VVCG tin tưởng và quyết tâm tiếp tục mang lại cho Quý Khách Hàng những công trình và dịch vụ thi công/ quản lý vận hành tốt nhất. Các công trình thi công luôn đảm bảo chất lượng, an toàn lao động, an ninh trật tự, vệ sinh môi trường để mang lại lợi ích tốt nhất cho khách hàng và xã hội, xứng đáng với niềm tin và kỳ vọng của Quý Khách hàng<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Hơn ai hết, VVCG hiểu rằng “sự thỏa mãn của khách hàng là thước đo năng lực của VVCG”. VVCG hy vọng, nhưng năm tiếp theo và say này sẽ tiếp tục được mở rộng liên kết, đồng hành với Quý Khách hàng và Đối tác để cùng nhau hợp tác, cùng năm bắt cơ hội và mang lại những thành công mới vượt bậc hơn nữa, để góp phần xây dựng đất nước giàu mạnh.
+        `
     },
     Feature: {
         title: "LĨNH VỰC KINH DOANH",
@@ -29,14 +37,14 @@ const Home_Data = {
                 detail: "Thi công xây lắp tòa nhà"
             },
             {
-                link: "/Projects",
+                link: "https://www.facebook.com/profile.php?id=100091771658816&mibextid=ZbWKwL",
                 name: "Đào tạo nghiệp vụ",
                 detail: "Đào tạo nghiệp vụ quản lý, vận hành"
             }
         ]
     },
     News: {
-        title: "Tin tức",
+        title: "TIN TỨC",
     }
 }
 const About_Data = {
@@ -54,7 +62,7 @@ const About_Data = {
     ],
     Intro: {
         left: "Về VVC Green",
-        right: "Công ty TNHH VVC GREEN tên thương hiệu là VVC xin gửi tới Quý khách hàng lời chúc tốt đẹp nhất. Kính chúc Quý khách hàng và gia đình sức khỏe, thành công, hạnh phúc trong cuộc sống!<br/>Mọi hoạt động của VVC đều hướng tới xây dựng sự tin tưởng và đem lại lợi ích tối đa tới đối tác và khách hàng; luôn tâm huyết, sáng tạo trong quá trình xây dựng và phát triển thương hiệu; coi đó là lợi ích cốt lõi của chính công ty.<br/>Ban lãnh đạo VVC  cam kết bằng sự tận tâm, nhiệt huyết của cũng như sự đoàn kết, nỗ lực, chia sẻ của toàn thể cán bộ, nhân viên, chúng tôi tin tưởng sẽ đạt được sự hài lòng của Quý khách hàng, sự tín nhiệm của đối tác và các chủ đầu tư, phấn đấu trở thành một trong những thương hiệu mạnh tại Việt Nam trong lĩnh vực tư vấn vận hành và bảo trì hệ thống kỹ thuật tòa nhà."
+        right: "Công ty TNHH VVC GREEN tên thương hiệu là VVC xin gửi tới Quý khách hàng lời chúc tốt đẹp nhất. Kính chúc Quý khách hàng và gia đình sức khỏe, thành công, hạnh phúc trong cuộc sống!<br/><br/>Mọi hoạt động của VVC đều hướng tới xây dựng sự tin tưởng và đem lại lợi ích tối đa tới đối tác và khách hàng; luôn tâm huyết, sáng tạo trong quá trình xây dựng và phát triển thương hiệu; coi đó là lợi ích cốt lõi của chính công ty.<br/><br/>Ban lãnh đạo VVC  cam kết bằng sự tận tâm, nhiệt huyết của cũng như sự đoàn kết, nỗ lực, chia sẻ của toàn thể cán bộ, nhân viên, chúng tôi tin tưởng sẽ đạt được sự hài lòng của Quý khách hàng, sự tín nhiệm của đối tác và các chủ đầu tư, phấn đấu trở thành một trong những thương hiệu mạnh tại Việt Nam trong lĩnh vực tư vấn vận hành và bảo trì hệ thống kỹ thuật tòa nhà."
     },
     Motto: {
         title: "Triết lý hoạt động",
@@ -456,5 +464,21 @@ phong phú và đa dạng cho khách hàng.
         link: ""
     },
 ]
+const Video_Data = [
+    "https://www.youtube.com/embed/8CfgLdyR4hg",
+    "https://www.youtube.com/embed/Iy3QdXbjqmk",
+    "https://www.youtube.com/embed/MEI7ykykORg",
+    "https://www.youtube.com/embed/lPDeeraQuZg",
+    "https://www.youtube.com/embed/Gx8TLMcQtq4",
+    "https://www.youtube.com/embed/Br4MZGMyRa8",
+    "https://www.youtube.com/embed/gCiiIXQNWXk",
+    "https://www.youtube.com/embed/vgb3pPTH5dA",
+    "https://www.youtube.com/embed/AP54rFkXyHE",
+    "https://www.youtube.com/embed/2VYEqcYNVWE",
+    "https://www.youtube.com/embed/oz9k5bXUYmE",
+    "https://www.youtube.com/embed/Fz_Q_w4vb0I",
+    "https://www.youtube.com/embed/_ewkND03Occ",
+    "https://www.youtube.com/embed/Q-rvYL2kqJo"
+]
 
-export { Home_Data, About_Data, News_data, Hero_news, Project_Data }
+export { Home_Data, About_Data, News_data, Hero_news, Project_Data, Video_Data }

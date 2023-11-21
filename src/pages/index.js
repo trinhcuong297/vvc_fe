@@ -1,4 +1,4 @@
-import { Home_Data, News_data, Project_Data } from "@/Data";
+import { Home_Data, News_data, Project_Data, Video_Data } from "@/Data";
 import { Meta } from "@/layout/meta";
 import {
   Card,
@@ -17,6 +17,7 @@ export default function Home() {
 
   const [data, setData] = useState({});
   const [news, setNews] = useState([]);
+  const [img_data, setImgdata] = useState([]);
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -44,6 +45,7 @@ export default function Home() {
     setData(Home_Data);
     setNews(News_data.slice(0, 6));
     setProjects(Project_Data);
+    setImgdata(Video_Data)
   }, []);
 
   return <>
@@ -538,6 +540,47 @@ export default function Home() {
             </Card>
           </div>
         </Carousel>
+      </section>
+      <section className="text-gray-800 w-full py-12 flex flex-col items-center">
+        <div className="container mx-auto p-4 mt-6 space-y-2 text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
+          <Typography
+            variant="h1"
+            color="yellow-400"
+            className="mb-4 text-3xl md:text-4xl lg:text-5xl text-yellow-400 shadow-inner"
+          >
+            VIDEO
+          </Typography>
+        </div>
+        <Carousel
+          className="h-fit w-3/4 rounded-lg "
+          loop={true}
+          navigation={({ setActiveIndex, activeIndex, length }) => (
+            <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+              {new Array(length).fill("").map((_, i) => (
+                <span
+                  key={i}
+                  className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
+                    }`}
+                  onClick={() => setActiveIndex(i)}
+                />
+              ))}
+            </div>
+          )}
+        >
+
+          {img_data?.map((e, index) => {
+            return <div className="relative h-[40rem] w-full flex flex-row-reverse" key={index}>
+              <iframe
+                src={e}
+                alt="Hero"
+                className="w-full object-cover"
+                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+              ></iframe>
+            </div>
+          })}
+
+        </Carousel>
+
       </section>
     </div >
   </>
