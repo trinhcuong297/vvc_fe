@@ -14,17 +14,15 @@ const Home_Data = {
     Intro: {
         left: "GIỚI THIỆU",
         right1: `
-        &nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVCG”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động trong những năm gần đây, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Hà Nội và TP. Hồ Chí Minh. Với quy mô doanh nghiệp và tính chuyên nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện.
-Để duy trì niềm tin nơi khách hàng, VVCG nhận thấy chất lượng nhân sự là yếu tố cốt lõi để doanh nghiệp có thể phát triển bền vững.<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Do vậy, trong suốt thời gian hoạt động, VVC đã quy tụ được rất nhiều nhân sự có bề dày kinh nghiệm làm việc tại các tập đoàn bất động sản quốc tế lớn cũng như các tập đoàn xây dựng có tên tuổi như: Vinaconex, CBRE, Savills, JLL,…<br/><br/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;Tự tin về chất lượng nhân sự, VVCG cũng áp dụng các công nghệ mới, thiết bị thi công hiện đại để nâng cao chất lượng dịch vụ mà VVCG đang cung cấp. VVCG tin tưởng và quyết tâm tiếp tục mang lại cho Quý Khách Hàng những công trình và dịch vụ thi công/ quản lý vận hành tốt nhất. Các công trình thi công luôn đảm bảo chất lượng, an toàn lao động, an ninh trật tự, vệ sinh môi trường để mang lại lợi ích tốt nhất cho khách hàng và xã hội, xứng đáng với niềm tin và kỳ vọng của Quý Khách hàng<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Hơn ai hết, VVCG hiểu rằng “sự tin tưởng của khách hàng là thước đo năng lực của VVCG”. VVCG hy vọng, nhưng năm tiếp theo và say này sẽ tiếp tục được mở rộng liên kết, đồng hành với Quý Khách hàng và Đối tác để cùng nhau hợp tác, cùng năm bắt cơ hội và mang lại những thành công mới vượt bậc hơn nữa, để góp phần xây dựng đất nước giàu mạnh.
+        &nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVCG”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!
+<br/><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động được 7 năm, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hồ Chí Minh và Hà Nội. Với quy mô doanh nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự chuyên nghiệp cũng như phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện. Để duy trì niềm tin nơi khách hàng, VVCG nhận thấy chất lượng nhân sự là yếu tố cốt lõi để doanh nghiệp có thể phát triển bền vững chính vì thế VVCG đã mở các lớp đào tạo nguồn nhân sự nội bộ vững mạnh để cung cấp cho các dự án cùng các chính sách đặc biệt trong suốt thời gian hoạt động, do vậy VVCG đã thu hút được rất nhiều nhân sự có bề dày kinh nghiệm làm việc tại các tập đoàn bất động sản quốc tế lớn cũng như các tập đoàn xây dựng có tên tuổi về đầu quân.
+<br/> <br/>   &nbsp;&nbsp;&nbsp;&nbsp;Hơn ai hết, VVCG hiểu rằng “sự hài lòng của khách hàng là thước đo năng lực của VVCG”. VVCG tin tưởng và quyết tâm tiếp tục mang lại cho Quý Khách Hàng những công trình và dịch vụ thi công/ quản lý vận hành tốt nhất,an toàn lao động, an ninh trật tự, vệ sinh môi trường . VVCG hy vọng, những năm tiếp theo sẽ tiếp tục được mở rộng liên kết, đồng hành với Quý Khách hàng và Đối tác để cùng nhau hợp tác,nắm bắt cơ hội và mang lại những thành công mới vượt bậc hơn nữa,góp phần xây dựng đất nước giàu mạnh.
         `,
         right2: `
-        &nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVCG”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động trong những năm gần đây, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Hà Nội và TP. Hồ Chí Minh. Với quy mô doanh nghiệp và tính chuyên nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện.        `
+        &nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVCG”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!
+<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động được 7 năm, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hồ Chí Minh và Hà Nội. Với quy mô doanh nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự chuyên nghiệp cũng như phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện.       `
     },
     Feature: {
         title: "LĨNH VỰC KINH DOANH",
@@ -114,12 +112,19 @@ const About_Data = {
         title: "Khách hàng của chúng tôi",
         customer_logo: [
             "https://sudospaces.com/hoaphat-com-vn/2019/10/hpg-logo-cymk-0211-artboard-7-copy-2.jpg",
-            "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",
-            "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",
-            "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",
-            "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",
-            "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",
-            "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",
+            "https://cafef1.mediacdn.vn/LOGO/THQTRADING.jpg",
+            "https://ashui.com/awards/wp-content/uploads/2017/12/Him-Lam.jpg",
+            "https://mifaco.com.vn/wp-content/uploads/2016/09/logo-ch%C3%ADnh-.jpg",
+            "https://static.ybox.vn/2019/3/4/1553742921545-Thi%E1%BA%BFt%20k%E1%BA%BF%20kh%C3%B4ng%20t%C3%AAn%20(74).png",
+            "https://static.topcv.vn/company_logos/BpyfgZeW7FATRinwX760vmZoEaronLTX_1646360385____fd31d2a57fe71e8b9335b94f63adb0ef.png",
+            "https://thuonghieumanh.vneconomy.vn/upload/TBSGroup.png",
+            "https://static.wixstatic.com/media/9d8ed5_810e9e3b7fad40eca3ec5087da674662~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+            "https://static.ybox.vn/2021/2/5/1613134068043-Untitled%20design%20(3).png",
+            "https://binhduongconstruction.com/wp-content/uploads/2019/11/logo-austdoor.png",
+            "https://angiainvestment.com/wp-content/uploads/2018/03/Coteccons-Logo-2014.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4ndJrQ7oDezPufiGCvcTLEvyCnfxbUoYeIvYnsWSqbNBVxm8Yf0_1ko_Cs4HztpfTg&usqp=CAU",
+            "https://upload.wikimedia.org/wikipedia/vi/thumb/9/98/Vingroup_logo.svg/1280px-Vingroup_logo.svg.png",
+            "https://bienquangcaohaiphongblog.files.wordpress.com/2015/12/nutifood-logo.png",
         ]
     }
 }
@@ -253,6 +258,19 @@ const Hero_news = {
 }
 const Project_Data = [
     {
+        img_url: "https://chungcuhn24h.net/wp-content/uploads/2017/09/chung-cu-can-bo-chien-sy-bo-cong-an-2.jpg",
+        cover: "Khu NOXH cho CBCS Bộ Công an",
+        post: {
+            head: "Dự án chung cư CBCS Bộ Công an nằm trong quần thể khu đô thị Thành phố Giao Lưu với hạ tầng đồng bộ với đầy đủ tiện ích sẽ đem lại cho cư dân cuộc sống tốt nhất."
+            , check1: `Quy mô dự án: 45.537m2. Tổng diện tích xây dựng 10.166m2
+            <br/> • 05 tòa chung cư cao 25-30 tầng 
+            <br/> • 1.888 căn hộ
+            <br/> • 03 tầng hầm, 05 tầng thương mại, dịch vụ`
+            , check2: `Nhiều tiện ích cho người sử dụng , phù hợp với mọi lứa tuổi: Bể bơi 4 mùa, phòng tập yoga, khu vui chơi, TTTM, cafe trên mái, khu BBQ ngoài trời...`
+
+        }, link: ""
+    },
+    {
         img_url: "https://jobsgo.vn/media/img/employer/10574-cover-app.jpg",
         cover: "Trương Định Plaza",
         post: {
@@ -322,19 +340,7 @@ const Project_Data = [
         }, link: ""
     },
 
-    {
-        img_url: "https://chungcuhn24h.net/wp-content/uploads/2017/09/chung-cu-can-bo-chien-sy-bo-cong-an-2.jpg",
-        cover: "Khu NOXH cho CBCS Bộ Công an",
-        post: {
-            head: "Dự án chung cư CBCS Bộ Công an nằm trong quần thể khu đô thị Thành phố Giao Lưu với hạ tầng đồng bộ với đầy đủ tiện ích sẽ đem lại cho cư dân cuộc sống tốt nhất."
-            , check1: `Quy mô dự án: 45.537m2. Tổng diện tích xây dựng 10.166m2
-            <br/> • 05 tòa chung cư cao 25-30 tầng 
-            <br/> • 1.888 căn hộ
-            <br/> • 03 tầng hầm, 05 tầng thương mại, dịch vụ`
-            , check2: `Nhiều tiện ích cho người sử dụng , phù hợp với mọi lứa tuổi: Bể bơi 4 mùa, phòng tập yoga, khu vui chơi, TTTM, cafe trên mái, khu BBQ ngoài trời...`
 
-        }, link: ""
-    },
 
     {
         img_url: "https://nhadepthudo.com.vn//img/upload/images/images/du%20an/XPHOME%20STAR/chung-cu-%20xphomes-star-tan-tay-do-9.jpg",

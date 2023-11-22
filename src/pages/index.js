@@ -565,10 +565,10 @@ export default function Home() {
         <div className="container mx-auto p-4 mt-6 space-y-2 text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
           <Typography
             variant="h1"
-            color="yellow-400"
-            className="mb-4 text-3xl md:text-4xl lg:text-5xl text-yellow-400 shadow-inner"
+            color=""
+            className="mb-4 text-3xl md:text-4xl lg:text-5xl text-[#092E4A]"
           >
-            VIDEO
+            VIDEO TIN TỨC
           </Typography>
         </div>
         <Carousel

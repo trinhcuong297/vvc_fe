@@ -231,10 +231,10 @@ export default function AboutUs() {
             </div>
             <div className="container flex flex-wrap justify-center mx-auto dark:text-gray-400">
                 {data?.Customers?.customer_logo?.map((e, index) => {
-                    return <div className="relative flex justify-center w-1/2 p-6 align-middle md:w-1/3 xl:w-1/4 p-4" key={index}>
+                    return <div className="relative flex justify-center w-1/3 p-6 align-middle md:w-1/4 xl:w-1/6 p-4" key={index}>
                         <img
                             src={e}
-                            className="lg:m-2 object-cover"
+                            className="lg:m-2 object-contain"
                         />
                         <div className="absolute inset-0 grid h-full w-full place-items-center backdrop-saturate-0 hover:backdrop-saturate-100"></div>
                     </div>
