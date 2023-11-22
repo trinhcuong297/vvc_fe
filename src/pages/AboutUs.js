@@ -179,7 +179,7 @@ export default function AboutUs() {
             </div>
 
         </div>
-        <div className="w-full flex flex-col items-center py-[6rem]">
+        {/* <div className="w-full flex flex-col items-center py-[6rem]">
             <div className="col-span-12 text-gray-800">
                 <div className="text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
                     <Typography
@@ -216,7 +216,7 @@ export default function AboutUs() {
                     </TimelineItem>
                 })}
             </Timeline>
-        </div>
+        </div> */}
         <section className="p-6 bg-gray-100 text-gray-800 py-[6rem]">
             <div className="col-span-12 text-gray-800">
                 <div className="text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">

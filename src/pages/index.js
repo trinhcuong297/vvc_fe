@@ -148,11 +148,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <section className="bg-gray-100 text-gray-800 w-full py-12">
+      <section className="bg-gray-100 text-[#092e4a] w-full py-12">
         <div className="container mx-auto p-4 my-6 space-y-2 text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
           <Typography
             variant="h1"
-            color="gray-800"
+            color=""
             className="mb-4 text-3xl md:text-4xl lg:text-5xl"
           >
             {data?.Feature?.title}
@@ -168,7 +168,7 @@ export default function Home() {
               <div className="space-y-1 leadi">
                 <Typography
                   variant="p"
-                  color="gray-800"
+                  color=""
                   className=""
                 >
                   {e?.detail}
@@ -561,7 +561,7 @@ export default function Home() {
           </div>
         </Carousel>
       </section> */}
-      <section className="text-gray-800 w-full py-12 flex flex-col items-center">
+      <section className="text-gray-800 w-full py-12 flex flex-col items-center bg-gray-100">
         <div className="container mx-auto p-4 mt-6 space-y-2 text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
           <Typography
             variant="h1"

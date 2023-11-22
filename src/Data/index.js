@@ -113,7 +113,7 @@ const About_Data = {
     Customers: {
         title: "Khách hàng của chúng tôi",
         customer_logo: [
-            "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",
+            "https://sudospaces.com/hoaphat-com-vn/2019/10/hpg-logo-cymk-0211-artboard-7-copy-2.jpg",
             "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",
             "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",
             "http://www.theartemis.vn/Portals/28155/trangchu/logo.png",

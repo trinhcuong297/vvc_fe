@@ -51,7 +51,7 @@ export function StickyNavbar() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
+                className="p-1 font-semibold text-yellow-400 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
 
                 <Link href="/" className="flex items-center">
@@ -62,7 +62,7 @@ export function StickyNavbar() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
+                className="p-1 font-semibold text-yellow-400 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
                 <Link href="/AboutUs" className="flex items-center">
                     Giới thiệu
@@ -72,7 +72,7 @@ export function StickyNavbar() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
+                className="p-1 font-semibold text-yellow-400 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
                 <Link href="/Projects" className="flex items-center">
                     Dự án
@@ -82,7 +82,7 @@ export function StickyNavbar() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
+                className="p-1 font-semibold text-yellow-400 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
                 <Link href="/Hiring" className="flex items-center">
                     Tuyển dụng
@@ -92,7 +92,7 @@ export function StickyNavbar() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
+                className="p-1 font-semibold text-yellow-400 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
                 <Link href="/News" className="flex items-center">
                     Tin tức
@@ -102,7 +102,7 @@ export function StickyNavbar() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-semibold text-gray-700 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
+                className="p-1 font-semibold text-yellow-400 text-[0.875rem] hover:text-gray-800 hover:underline hover:underline-offset-4 hover:decoration-2 decoration-orange-200"
             >
                 <Link href="/Video" className="flex items-center">
                     Video
