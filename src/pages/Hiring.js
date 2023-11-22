@@ -30,8 +30,8 @@ export default function Hiring() {
                     </Typography>
                 </div>
             </div>
-            <Card className="h-full w-3/4">
-                <table className="w-full min-w-max table-auto text-left">
+            <Card className="h-full w-full md:w-3/4">
+                <table className="w-full table-auto text-left">
                     <thead>
                         <tr>
                             {TABLE_HEAD.map((head) => (

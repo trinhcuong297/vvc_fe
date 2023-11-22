@@ -103,8 +103,22 @@ export default function News() {
                         </Typography>
                         <div className="flex justify-center gap-2">
                             <Link href={`/News/${data[0]?.id}`}>
-                                <Button size="lg" color="white">
-                                    Explore
+                                <Button variant="outline" className="text-white flex items-center gap-2">
+                                    Đọc thêm{" "}
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={2}
+                                        stroke="currentColor"
+                                        className="h-5 w-5"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                                        />
+                                    </svg>
                                 </Button>
                             </Link>
                         </div>
@@ -135,8 +149,22 @@ export default function News() {
                         </Typography>
                         <div className="flex justify-center gap-2">
                             <Link href={`/News/${data[1]?.id}`}>
-                                <Button size="lg" color="white">
-                                    Explore
+                                <Button variant="outline" className="text-white flex items-center gap-2">
+                                    Đọc thêm{" "}
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={2}
+                                        stroke="currentColor"
+                                        className="h-5 w-5"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                                        />
+                                    </svg>
                                 </Button>
                             </Link>
                         </div>
@@ -167,8 +195,22 @@ export default function News() {
                         </Typography>
                         <div className="flex justify-center gap-2">
                             <Link href={`/News/${data[2]?.id}`}>
-                                <Button size="lg" color="white">
-                                    Explore
+                                <Button variant="outline" className="text-white flex items-center gap-2">
+                                    Đọc thêm{" "}
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={2}
+                                        stroke="currentColor"
+                                        className="h-5 w-5"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                                        />
+                                    </svg>
                                 </Button>
                             </Link>
                         </div>
@@ -246,9 +288,6 @@ export default function News() {
                 <div className="flex items-center gap-2">
                     <IconButton {...getItemProps(1)}>1</IconButton>
                     <IconButton {...getItemProps(2)}>2</IconButton>
-                    <IconButton {...getItemProps(3)}>3</IconButton>
-                    <IconButton {...getItemProps(4)}>4</IconButton>
-                    <IconButton {...getItemProps(5)}>5</IconButton>
                 </div>
                 <Button
                     variant="text"

@@ -93,8 +93,10 @@ export default function Home() {
                 </Typography>
                 <div className="flex justify-center gap-2">
                   <Link href="/AboutUs">
-                    <Button size="lg" color="white">
-                      Explore
+                    <Button variant="outlined" className="text-white flex items-center gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 animate-bounce">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                      </svg>
                     </Button>
                   </Link>
                 </div>
@@ -569,12 +571,12 @@ export default function Home() {
         >
 
           {img_data?.map((e, index) => {
-            return <div className="relative h-[40rem] w-full flex flex-row-reverse" key={index}>
+            return <div className="relative h-[20rem] md:h-[40rem] w-full flex flex-row-reverse" key={index}>
               <iframe
                 src={e}
                 alt="Hero"
-                className="w-full object-cover"
-                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                className="w-full object-cover mb-[2rem]"
+                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;" allowfullscreen
               ></iframe>
             </div>
           })}
