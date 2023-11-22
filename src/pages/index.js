@@ -120,7 +120,7 @@ export default function Home() {
               <Typography
                 variant="h1"
                 color=""
-                className="mb-4 text-gray-100 text-3xl md:text-4xl lg:text-5xl w-full"
+                className="mb-4 text-gray-100 text-3xl md:text-4xl lg:text-5xl w-full text-yellow-400"
               >
                 {data?.Intro?.left}
               </Typography>
