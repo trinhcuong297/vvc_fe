@@ -22,7 +22,7 @@ export function FooterWithLogo() {
                             </div>
                             <div className='flex items-center mt-2'>
                                 <MapIcon className="w-6 h-6 mr-2" />
-                                <p>Văn phòng đại diện: TP. Hồ Chí Minh</p>
+                                <p>Văn phòng đại diện: Tầng G, The Hub Building, 195/10E Điện Biên Phủ, P15, Bình Thạnh, Hồ Chí Minh.</p>
                             </div>
                             <div className='flex items-center mt-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">
