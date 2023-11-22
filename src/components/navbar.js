@@ -8,17 +8,20 @@ import {
 } from "@material-tailwind/react";
 import Image from 'next/image'
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 
 export function StickyNavbar() {
     const [openNav, setOpenNav] = React.useState(false);
     const [imgWidth, setimgWidth] = React.useState(200);
+    const router = useRouter()
 
     React.useEffect(() => {
         window.addEventListener(
             "resize",
             () => window.innerWidth >= 960 && setOpenNav(false),
         );
+        setOpenNav(false)
         window.addEventListener(
             "scroll",
             () => {
@@ -40,7 +43,7 @@ export function StickyNavbar() {
             document.getElementById('navbar').classList.remove("!bg-transparent")
             setimgWidth(100)
         }
-    }, []);
+    }, [router]);
 
     const navList = (
         <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -85,7 +88,7 @@ export function StickyNavbar() {
                     Tuyển dụng
                 </Link>
             </Typography>
-            <Typography
+            {/* <Typography
                 as="li"
                 variant="small"
                 color="blue-gray"
@@ -94,7 +97,7 @@ export function StickyNavbar() {
                 <Link href="/News" className="flex items-center">
                     Tin tức
                 </Link>
-            </Typography>
+            </Typography> */}
             <Typography
                 as="li"
                 variant="small"
@@ -145,7 +148,7 @@ export function StickyNavbar() {
                     <div className="mr-4 hidden lg:block">{navList}</div>
                     <IconButton
                         variant="text"
-                        className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+                        className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden p-5 rounded-full bg-white"
                         ripple={false}
                         onClick={() => setOpenNav(!openNav)}
                     >

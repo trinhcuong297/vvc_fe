@@ -13,7 +13,7 @@ const Home_Data = {
     ],
     Intro: {
         left: "GIỚI THIỆU",
-        right: `
+        right1: `
         &nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVC”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động trong những năm gần đây, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hà Nội. Với quy mô doanh nghiệp và tính chuyên nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện.
 Để duy trì niềm tin nơi khách hàng, VVCG nhận thấy chất lượng nhân sự là yêu tố cốt lõi để doanh nghiệp có thể phát triển bền vững.<br/><br/>
@@ -21,7 +21,10 @@ const Home_Data = {
 
 &nbsp;&nbsp;&nbsp;&nbsp;Tự tin về chất lượng nhân sự, VVCG cũng áp dụng các công nghệ mới, thiết bị thi công hiện đại để nâng cao chất lượng dịch vụ mà VVCG đang cung cấp. VVCG tin tưởng và quyết tâm tiếp tục mang lại cho Quý Khách Hàng những công trình và dịch vụ thi công/ quản lý vận hành tốt nhất. Các công trình thi công luôn đảm bảo chất lượng, an toàn lao động, an ninh trật tự, vệ sinh môi trường để mang lại lợi ích tốt nhất cho khách hàng và xã hội, xứng đáng với niềm tin và kỳ vọng của Quý Khách hàng<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Hơn ai hết, VVCG hiểu rằng “sự thỏa mãn của khách hàng là thước đo năng lực của VVCG”. VVCG hy vọng, nhưng năm tiếp theo và say này sẽ tiếp tục được mở rộng liên kết, đồng hành với Quý Khách hàng và Đối tác để cùng nhau hợp tác, cùng năm bắt cơ hội và mang lại những thành công mới vượt bậc hơn nữa, để góp phần xây dựng đất nước giàu mạnh.
-        `
+        `,
+        right2: `
+        &nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVC”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động trong những năm gần đây, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hà Nội. Với quy mô doanh nghiệp và tính chuyên nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện.        `
     },
     Feature: {
         title: "LĨNH VỰC KINH DOANH",
@@ -38,7 +41,7 @@ const Home_Data = {
             },
             {
                 link: "https://www.facebook.com/profile.php?id=100091771658816&mibextid=ZbWKwL",
-                name: "Đào tạo nghiệp vụ",
+                name: "ĐÀO TẠO NGHIỆP VỤ QUẢN LÝ, VẬN HÀNH",
                 detail: "Đào tạo nghiệp vụ quản lý, vận hành"
             }
         ]
@@ -70,17 +73,17 @@ const About_Data = {
             {
                 title: "Tầm nhìn - Sứ mệnh",
                 cover_img: "/vvc_logo.png",
-                detail: "Tầm nhìn - Sứ mệnh"
+                detail: "Dịch vụ tận tâm - Hành động - Thương hiệu"
             },
             {
                 title: "Giá trị cốt lõi",
                 cover_img: "/gtcl.png",
-                detail: "Trở thành tập đoàn kinh tế đa ngành tiên phong, hướng đến đầu tư sáng tạo, chất lượng, bền vững tại Việt Nam và các nước lân cận."
+                detail: "Trung thực - Tận tâm - Trách nhiệm"
             },
             {
                 title: "Văn hóa doanh nghiệp",
                 cover_img: "/vhdn.png",
-                detail: "Trở thành tập đoàn kinh tế đa ngành tiên phong, hướng đến đầu tư sáng tạo, chất lượng, bền vững tại Việt Nam và các nước lân cận."
+                detail: ""
             },
         ]
     },
@@ -126,7 +129,7 @@ const News_data = [
         cover_img: "https://vvc.com.vn/uploads/thumbs/370x0/6fc1d0c4804f7e11275e.jpg",
         created_time: "10/07/2023",
         title: "Điểm tin VVC",
-        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
         content: `  <p className="pb- 6">Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is
                             justice.Six draw
                             you him full not mean evil.Prepare garrets it expense windows shewing do an.She projection advantages
@@ -193,8 +196,8 @@ const News_data = [
         cover_img: "https://vvc.com.vn/uploads/thumbs/370x0/6fc1d0c4804f7e11275e.jpg",
         created_time: "10/07/2023",
         title: "Điểm tin VVC",
-        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
         tags: []
     },
     {
@@ -202,8 +205,8 @@ const News_data = [
         cover_img: "https://vvc.com.vn/uploads/thumbs/370x0/6fc1d0c4804f7e11275e.jpg",
         created_time: "10/07/2023",
         title: "Điểm tin VVC",
-        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
         tags: []
     },
     {
@@ -211,8 +214,8 @@ const News_data = [
         cover_img: "https://vvc.com.vn/uploads/thumbs/370x0/6fc1d0c4804f7e11275e.jpg",
         created_time: "10/07/2023",
         title: "Điểm tin VVC",
-        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
         tags: []
     },
     {
@@ -220,8 +223,8 @@ const News_data = [
         cover_img: "https://vvc.com.vn/uploads/thumbs/370x0/6fc1d0c4804f7e11275e.jpg",
         created_time: "10/07/2023",
         title: "Điểm tin VVC",
-        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
         tags: []
     },
     {
@@ -229,37 +232,10 @@ const News_data = [
         cover_img: "https://vvc.com.vn/uploads/thumbs/370x0/6fc1d0c4804f7e11275e.jpg",
         created_time: "10/07/2023",
         title: "Điểm tin VVC",
-        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
+        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc - điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
         tags: []
     },
-    {
-        id: 7,
-        cover_img: "https://vvc.com.vn/uploads/thumbs/370x0/6fc1d0c4804f7e11275e.jpg",
-        created_time: "10/07/2023",
-        title: "Điểm tin VVC",
-        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        tags: []
-    },
-    {
-        id: 8,
-        cover_img: "https://vvc.com.vn/uploads/thumbs/370x0/6fc1d0c4804f7e11275e.jpg",
-        created_time: "10/07/2023",
-        title: "Điểm tin VVC",
-        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        tags: []
-    },
-    {
-        id: 9,
-        cover_img: "https://vvc.com.vn/uploads/thumbs/370x0/6fc1d0c4804f7e11275e.jpg",
-        created_time: "10/07/2023",
-        title: "Điểm tin VVC",
-        pre_content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        content: "Tiếp nối sự thành công của sự kiện BIM Group 5150 Phú Quốc vào tháng 11/2022, BIM Group tiếp tục đồng hành cùng Sunrise Events Vietnam, đưa giải đấu ba môn phối hợp tiêu chuẩn quốc tế IRONMAN 70.3 lần đầu tiên đến đảo ngọc Phú Quốc. Với vai trò là Nhà tài trợ Chiến lược, BIM Group kỳ vọng giải đấu sẽ góp phần quảng bá hình ảnh Phú Quốc – điểm đến du lịch thể thao nổi bật, giúp gia tăng sức cạnh tranh của đảo ngọc với các điểm đến biển đảo khác trong khu vực.",
-        tags: []
-    }
 ]
 const Hero_news = {
     Hero: [
@@ -279,18 +255,161 @@ const Project_Data = [
     {
         img_url: "https://jobsgo.vn/media/img/employer/10574-cover-app.jpg",
         cover: "Trương Định Plaza",
-        detail: `Là TTTM quy mô đầu tiên tại quận Hoàng Mai.
-• TTTM cung cấp đầy đủ các ngành hàng, đem
-đến sự lựa chọn mua sắm, vui chơi, giải trí
-phong phú và đa dạng cho khách hàng.
-• Chủ đầu tư uy tín.
-• Tổng diện tích sàn(kể cả tầng hầm): 16.682 m2
-• Tổng diện tích sàn các phần nổi: 10.820 m`,
         post: {
             head: "Là TTTM quy mô đầu tiên tại quận Hoàng Mai. TTTM cung cấp đầy đủ các ngành hàng, đem đến sự lựa chọn mua sắm, vui chơi, giải trí phong phú và đa dạng cho khách hàng.",
-            check1: "Chủ đầu tư uy tín",
+            check1: "Chủ đầu tư: Công ty TNHH TTTM Trương Định",
             check2: "Tổng diện tích sàn(kể cả tầng hầm): 16.682 m2",
             check3: "Tổng diện tích sàn các phần nổi: 10.820 m"
+        },
+        link: ""
+    },
+    {
+        img_url: "https://file4.batdongsan.com.vn/2015/11/10/hmcVYWuR/20151110134007-fda2.jpg",
+        cover: "Cụm nhà chung cư TNT CT1, CT2 Tây Mỗ",
+        post: {
+            head: "Thuộc Khu Đô thị Đại Mỗ, được xây dựng theo mô hình khu nhà ở khép kín với các dịch vụ tiện ích phục vụ nhu cầu sinh hoạt hàng ngày cho cư dân đô thị, cung cấp hàng trăm căn hộ giá rẻ với chất lượng tốt."
+            , check1: `Quy mô dự án: 1.897m2`
+            , check2: `02 tòa chung cư cao từ 09-15 tầng
+            <br/> • 288 căn hộ
+            <br/> • 02 khu dịch vụ, 02 tầng hầm, 02 khu sinh hoạt cộng đồng`
+            , check3: `Các căn hộ được thiết kế tiện nghi, hiện đại, tận dụng thông thoáng tự nhiên`
+
+        }, link: ""
+    },
+    {
+        img_url: "https://chungcunamhanoi.com/wp-content/uploads/2017/06/tong-quan-du-an-new-horizon-city.jpg",
+        cover: "Cụm nhà chung cư New Horizon City",
+        post: {
+            head: "Dự án quy mô gần 2ha, tích hợp các tiện ích đầy đủ và hiện đại, thừa hưởng lợi thế về hạ tầng giao thông."
+            , check1: `Quy mô dự án: 20.000m2
+            <br/> • Mật độ xây dựng 41%
+            <br/> • Gồm 16.000m2 diện tích văn phòng, thương mại và diện tích công cộng`
+            , check2: `04 tòa chung cư cao từ 19-30 tầng
+            <br/> • 1.244 căn hộ
+            <br/> • 01 khối đế, 02 tầng hầm với bãi đỗ xe rộng 30.000m2`
+            , check3: `Không gian sống lý tưởng với nhiều tiện ích: Hệ thống siêu thị, TTTM, phòng khám, phòng gym&spa, shophouse...`
+
+        }, link: ""
+    },
+    {
+        img_url: "https://mipeccityview.vn/wp-content/uploads/2020/07/phoi-canh-tong-the-khu-du-an-can-ho-mipec-city-view.jpg",
+        cover: "Tòa nhà M2, M3 Mipec City View",
+        post: {
+            head: "Dự án thuộc phân khúc trung cấp có quy mô rộng lớn, mang đến các trải nghiệm mới cho cư dân sinh sống."
+            , check1: `Chủ Đầu tư uy tín`
+            , check2: `Quy mô dự án:
+            <br/> • 01 tòa, bao gồm 02 đơn nguyên cao 25 tầng 
+            <br/> • 450 căn hộ
+            <br/> • 01 tầng hầm`
+            , check3: `Các tiện ích đạt chuẩn vượt trội: Nhà hàng ẩm thực, quán cafe, TTTM, spa, phòng tập yoga...`
+
+        },
+        link: ""
+    },
+
+    {
+        img_url: "https://nha.today/wp-content/uploads/2021/12/phoi-canh-tu-hiep-plaza.jpg",
+        cover: "Tòa nhà chung cư Tứ Hiệp Plaza",
+        post: {
+            head: "Dự án tổ hợp khu nhà ở, văn phòng, dịch vụ tiện nghi tọa lạc tại cửa ngõ phía Nam của TP. Hà Nội với vị trí đắc địa, thiết kế không gian hài hòa tạo ra một không gian xanh - môi trường sinh sống, thư giãn lý tưởng cho nhiều hộ gia đình hiện đại."
+            , check1: `Quy mô dự án: 15.715m2. Tổng diện tích xây dựng 8.629m2
+            <br/> • Mật độ xây dựng toàn khu 70% 
+            <br/> • 02 tòa, gồm 32 tầng nổi 
+            <br/> • 648 căn hộ
+            <br/> • 02 tầng hầm`
+            , check2: `Đầy đủ những chức năng, dịch vụ tiện nghi hàng đầu như: TTTM sầm uất, siêu thị mini, phòng tập gym, trường mẫu giáo, công viên cây xanh...`
+
+        }, link: ""
+    },
+
+    {
+        img_url: "https://chungcuhn24h.net/wp-content/uploads/2017/09/chung-cu-can-bo-chien-sy-bo-cong-an-2.jpg",
+        cover: "Khu NOXH cho CBCS Bộ Công an",
+        post: {
+            head: "Dự án chung cư CBCS Bộ Công an nằm trong quần thể khu đô thị Thành phố Giao Lưu với hạ tầng đồng bộ với đầy đủ tiện ích sẽ đem lại cho cư dân cuộc sống tốt nhất."
+            , check1: `Quy mô dự án: 45.537m2. Tổng diện tích xây dựng 10.166m2
+            <br/> • 05 tòa chung cư cao 25-30 tầng 
+            <br/> • 1.888 căn hộ
+            <br/> • 03 tầng hầm, 05 tầng thương mại, dịch vụ`
+            , check2: `Nhiều tiện ích cho người sử dụng , phù hợp với mọi lứa tuổi: Bể bơi 4 mùa, phòng tập yoga, khu vui chơi, TTTM, cafe trên mái, khu BBQ ngoài trời...`
+
+        }, link: ""
+    },
+
+    {
+        img_url: "https://nhadepthudo.com.vn//img/upload/images/images/du%20an/XPHOME%20STAR/chung-cu-%20xphomes-star-tan-tay-do-9.jpg",
+        cover: "Tòa nhà chung cư HHB - KĐT mới Tân Tây Đô",
+        post: {
+            head: "Chung cư HBB hiện hữu bên trong quần thể Khu đô thị mới Tân Tây Đô. Do đó, tòa tháp dự án hội tụ đầy đủ các dịch vụ và tiện ích thiết yếu đáp ứng nhu cầu của cư dân."
+            , check1: `Quy mô dự án: 21ha. 
+            <br/> • Mật độ xây dựng 30-40%
+            <br/> • 01 tòa chung cư cao 25 tầng 
+            <br/> • 176 căn hộ
+            <br/> • 01 tầng hầm, 03 tầng thương mại, dịch vụ`
+            , check2: `Tiện ích: Trường học, spa, trung tâm thương mại, chuỗi siêu thị bán lẻ, dịch vụ chăm sóc sức khỏe...`
+
+        }, link: ""
+    },
+
+    {
+        img_url: "https://i2.wp.com/ia20ciputra.net/wp-content/uploads/2018/10/cropped-gate-ciputra-ha-noi-1.jpg?fit=1200%2C480&ssl=1",
+        cover: "Tòa nhà A1 - Cụm Công trình nhà ở IA20 - KĐT Nam Thăng Long",
+        post: {
+            head: "Dự án được thiết kế mang phong cách hiện đại, mỗi căn hộ đều chú trọng đón ánh sáng tự nhiên và thông thoáng, đảm bảm yếu tố phong thủy cũng như nét hiện đại, thuận tiện trong sinh hoạt."
+            , check1: `Quy mô dự án: Tổng diện tích sàn xây dựng 119.965m2. 
+            <br/> • Mật độ xây dựng 47%
+            <br/> • 01 tòa chung cư, 26 tầng nổi 
+            <br/> • 390 căn hộ và tầng mái
+            <br/> • 03 tầng hầm, 03 tầng thương mại, dịch vụ và văn phòng`
+            , check2: `Hơn 30 tiện ích nội khu sang trọng: Phòng sinh hoạt cộng đồng, vườn hoa, siêu thị, khu cafe, nhà hàng, phòng tập gym, spa và khu văn phòng...`
+
+        }, link: ""
+    },
+    {
+        img_url: "https://i2.wp.com/ia20ciputra.net/wp-content/uploads/2018/10/cropped-gate-ciputra-ha-noi-1.jpg?fit=1200%2C480&ssl=1",
+        cover: "Tòa nhà A2 - Cụm Công trình nhà ở IA20 - KĐT Nam Thăng Long",
+        post: {
+            head: "Dự án được thiết kế mang phong cách hiện đại, mỗi căn hộ đều chú trọng đón ánh sáng tự nhiên và thông thoáng, đảm bảm yếu tố phong thủy cũng như nét hiện đại, thuận tiện trong sinh hoạt."
+            , check1: `Quy mô dự án: Tổng diện tích sàn xây dựng 119.965m2. 
+            <br/> • Mật độ xây dựng 47%
+            <br/> • 01 tòa chung cư, 26 tầng nổi 
+            <br/> • 390 căn hộ và tầng mái
+            <br/> • 03 tầng hầm, 03 tầng thương mại, dịch vụ và văn phòng`
+            , check2: `Hơn 30 tiện ích nội khu sang trọng: Phòng sinh hoạt cộng đồng, vườn hoa, siêu thị, khu cafe, nhà hàng, phòng tập gym, spa và khu văn phòng...`
+
+        }, link: ""
+    },
+    {
+        img_url: "https://duongquoccuongbds.com/wp-content/uploads/2016/07/chung-cu-artemis-le-trong-tan.jpg",
+        cover: "Tòa nhà The Artemis Lê Trọng Tấn",
+        post: {
+            head: " Tòa nhà tổ hợp Trung tâm thương mại văn phòng và căn hộ cao cấp với thiết kế vô cùng sang trọng, bề thế đáp ứng mọi tiêu chí thẩm mỹ và nhu cầu của khách hàng."
+            , check1: `Quy mô dự án: Tổng diện tích xây dựng 8.956m2. 
+            <br/> • 01 tòa chung cư cao 27 tầng
+            <br/> • 365 căn hộ và Penhouse
+            <br/> • 03 tầng hầm, 08 tầng thương mại, dịch vụ và văn phòng`
+            , check2: `Hàng loạt những tiện ích đa dạng, đồng bộ: TTTM, bể bơi 4 mùa, khu vui chơi giải trí, khu ẩm thực, nhiều ngân hàng lớn...`
+
+        }, link: ""
+    },
+    {
+        img_url: "https://cdn-merchant.vinid.net/images/gallery/omre_trang_tin_tuc/image_upload_1696948465_1.jpg",
+        cover: "Tổ hợp chung cư SME Hoàng Gia",
+        post: {
+            head: "Cung cấp dịch vụ quản lý vận hành nhà chung cư",
+            check1: `
+                 •	40 tầng, 279 căn hộ
+            <br/>•	02 tầng hầm
+            <br/>•	01 nhà cộng đồng
+            <br/>•	01 khu vườn hoa
+            <br/>•	05 tầng dịch vụ văn phòng cho thuê
+            <br/>•	06 thang máy
+            <br/>•	Hệ thống kiểm soát ra vào bằng thẻ từ cho khu vực carparking và thang máy.
+            <br/>•	Sử dụng hệ thống chữa cháy tự động
+            <br/>•	Có hệ thống cảnh quan sân vườn xung quanh
+            `,
+            check2: "",
+            check3: ""
         },
         link: ""
     },

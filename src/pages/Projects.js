@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 
 export default function Projects() {
 
-    const [projects, setProjects] = useState([]);
+    const [projects, setProjects] = useState(Project_Data);
 
     useEffect(() => {
         // fetch(
@@ -19,7 +19,7 @@ export default function Projects() {
         //     .then((data) => {
         //         setProjects(data);
         //     })
-        setProjects(Project_Data);
+        // setProjects(Project_Data);
     }, []);
     return <>
         <Meta title="VVC - Dự án" description="Công ty TNHH VVC Green - Bảo trì, bảo dưỡng, vận hành tòa nhà" />
@@ -59,7 +59,7 @@ export default function Projects() {
                             <Typography
                                 variant="lead"
                                 color="white"
-                                className="mb-12 opacity-80 overflow-hidden"
+                                className="mb-12 opacity-80 overflow-hidden hidden md:block"
                             >
                                 {e?.post?.head}
                             </Typography>
@@ -95,7 +95,7 @@ export default function Projects() {
                     {
                         projects?.map((e, index) => {
                             return index % 2 == 1 ? <>
-                                <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+                                <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center" id={index}>
                                     <div>
                                         <div className="flex items-center">
                                             <h3 className="text-2xl font-bold tracki sm:text-3xl mr-3">{e?.cover}</h3>
@@ -109,43 +109,51 @@ export default function Projects() {
                                         <div className="mt-12 space-y-6">
                                             <div className="flex">
                                                 <div className="flex-shrink-0">
-                                                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
+                                                    {e?.post?.check1 ? <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
                                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
                                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                                         </svg>
-                                                    </div>
+                                                    </div> : <></>}
                                                 </div>
                                                 <div className="ml-4">
-                                                    <h4 className="text-lg font-medium leadi">
-                                                        {e?.post?.check1}
+                                                    <h4 className="text-lg font-medium leadi"
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: e?.post?.check1 ? e?.post?.check1 : '',
+                                                        }}
+                                                        suppressHydrationWarning={true}>
                                                     </h4>
                                                 </div>
                                             </div>
                                             <div className="flex">
                                                 <div className="flex-shrink-0">
-                                                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
+                                                    {e?.post?.check2 ? <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
                                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
                                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                                         </svg>
-                                                    </div>
+                                                    </div> : <></>}
                                                 </div>
                                                 <div className="ml-4">
-                                                    <h4 className="text-lg font-medium leadi">
-                                                        {e?.post?.check2}
+                                                    <h4 className="text-lg font-medium leadi"
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: e?.post?.check2 ? e?.post?.check2 : '',
+                                                        }}
+                                                        suppressHydrationWarning={true}>
                                                     </h4>
                                                 </div>
                                             </div>
                                             <div className="flex">
                                                 <div className="flex-shrink-0">
-                                                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
+                                                    {e?.post?.check3 ? <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
                                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
                                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                                         </svg>
-                                                    </div>
+                                                    </div> : <></>}
                                                 </div>
                                                 <div className="ml-4">
-                                                    <h4 className="text-lg font-medium leadi">
-                                                        {e?.post?.check3}
+                                                    <h4 className="text-lg font-medium leadi" dangerouslySetInnerHTML={{
+                                                        __html: e?.post?.check3 ? e?.post?.check3 : '',
+                                                    }}
+                                                        suppressHydrationWarning={true}>
                                                     </h4>
                                                 </div>
                                             </div>
@@ -159,7 +167,7 @@ export default function Projects() {
                                 </div>
                             </> : <>
                                 <div>
-                                    <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+                                    <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center" id={index}>
                                         <div className="lg:col-start-2">
                                             <div className="flex items-center">
                                                 <h3 className="text-2xl font-bold tracki sm:text-3xl mr-3">{e?.cover}</h3>
@@ -173,43 +181,49 @@ export default function Projects() {
                                             <div className="mt-12 space-y-6">
                                                 <div className="flex">
                                                     <div className="flex-shrink-0">
-                                                        <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
+                                                        {e?.post?.check1 ? <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                                             </svg>
-                                                        </div>
+                                                        </div> : <></>}
                                                     </div>
                                                     <div className="ml-4">
-                                                        <h4 className="text-lg font-medium leadi">
-                                                            {e?.post?.check1}
+                                                        <h4 className="text-lg font-medium leadi" dangerouslySetInnerHTML={{
+                                                            __html: e?.post?.check1 ? e?.post?.check1 : '',
+                                                        }}
+                                                            suppressHydrationWarning={true}>
                                                         </h4>
                                                     </div>
                                                 </div>
                                                 <div className="flex">
                                                     <div className="flex-shrink-0">
-                                                        <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
+                                                        {e?.post?.check2 ? <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                                             </svg>
-                                                        </div>
+                                                        </div> : <></>}
                                                     </div>
                                                     <div className="ml-4">
-                                                        <h4 className="text-lg font-medium leadi">
-                                                            {e?.post?.check2}
+                                                        <h4 className="text-lg font-medium leadi" dangerouslySetInnerHTML={{
+                                                            __html: e?.post?.check2 ? e?.post?.check2 : '',
+                                                        }}
+                                                            suppressHydrationWarning={true}>
                                                         </h4>
                                                     </div>
                                                 </div>
                                                 <div className="flex">
                                                     <div className="flex-shrink-0">
-                                                        <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
+                                                        {e?.post?.check3 ? <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900">
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                                             </svg>
-                                                        </div>
+                                                        </div> : <></>}
                                                     </div>
                                                     <div className="ml-4">
-                                                        <h4 className="text-lg font-medium leadi">
-                                                            {e?.post?.check3}
+                                                        <h4 className="text-lg font-medium leadi" dangerouslySetInnerHTML={{
+                                                            __html: e?.post?.check3 ? e?.post?.check3 : '',
+                                                        }}
+                                                            suppressHydrationWarning={true}>
                                                         </h4>
                                                     </div>
                                                 </div>
