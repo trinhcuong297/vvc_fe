@@ -1,4 +1,5 @@
 import { LinkIcon, MapIcon } from '@heroicons/react/24/outline';
+import { Typography } from '@material-tailwind/react';
 import Image from 'next/image'
 import Link from 'next/link';
 
@@ -16,32 +17,66 @@ export function FooterWithLogo() {
                 <div className="w-full">
                     <div className="text-gray-200 block md:flex md:justify-between mt-4 p-0 lg:pr-16">
                         <div>
-                            <div className='flex items-center mt-2'>
-                                <MapIcon className="w-6 h-6 mr-2" />
-                                <p>Trụ sở chính: Số 461, Trương Định, Hoàng Mai, Hà Nội</p>
+                            <div className='py-4'>
+                                <Typography
+                                    variant='h5'
+                                    className=''
+                                >
+                                    Hà Nội
+                                </Typography>
+                                <div className='flex items-center mt-2'>
+                                    <div className='w-6 mr-2'>
+                                        <MapIcon className="w-full" />
+                                    </div>
+                                    <p className='text-sm md:text-base'>Trụ sở chính: Số 461, Trương Định, Hoàng Mai, Hà Nội</p>
+                                </div>
+                                <div className='flex items-center mt-2 text-sm md:text-base'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
+                                    </svg>
+                                    Contact.hn@vvc.com.vn
+                                </div>
+                                <div className='flex items-center mt-2'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                    </svg>
+                                    {`(+84)91666483`}
+                                </div>
                             </div>
-                            <div className='flex items-center mt-2'>
-                                <MapIcon className="w-6 h-6 mr-2" />
-                                <p>Văn phòng đại diện: Tầng G, The Hub Building, 195/10E Điện Biên Phủ, P15, Bình Thạnh, Hồ Chí Minh.</p>
+                            <div className='py-4'>
+                                <Typography
+                                    variant='h5'
+                                    className=''
+                                >
+                                    TP. Hồ Chí Minh
+                                </Typography>
+                                <div className='flex items-center mt-2'>
+                                    <div className='!w-6 mr-2'>
+                                        <MapIcon className="w-full" viewBox='0 0 24 24' />
+                                    </div>
+                                    <div className='text-sm md:text-base'>Văn phòng đại diện: Tầng G, The Hub Building, 195/10E Điện Biên Phủ, P15, Bình Thạnh, Hồ Chí Minh.</div>
+                                </div>
+                                <div className='flex items-center mt-2 text-sm md:text-base'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
+                                    </svg>
+                                    Contact.hcm@vvc.com.vn
+                                </div>
+                                <div className='flex items-center mt-2'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                    </svg>
+                                    {`(+84)91666483`}
+                                </div>
                             </div>
-                            <div className='flex items-center mt-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                </svg>
-                                +84 91666483
-                            </div>
-                            <div className='flex items-center mt-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
-                                </svg>
-                                vvcgreen@gmail.com
-                            </div>
+
+
                         </div>
                         <div className="space-y-3 mt-2">
-                            <div className="uppercase dark:text-gray-50">Social media</div>
+                            {/* <div className="uppercase dark:text-gray-50">Social media</div> */}
                             <div className="flex justify-start space-x-3">
-                                <Link rel="noopener noreferrer" href="https://www.facebook.com/hannguyen.vvc?mibextid=ZbWKwL" title="Facebook" className="flex items-center p-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className="w-5 h-5 md:w-10 md:h-10 fill-current">
+                                <Link rel="noopener noreferrer" href="https://www.facebook.com/hannguyen.vvc?mibextid=ZbWKwL" title="Facebook" className="flex items-center p-1 pr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className=" w-10 h-10 fill-current">
                                         <path d="M32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584 0.312 3.584 0.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-0.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z"></path>
                                     </svg>
                                 </Link>
@@ -49,7 +84,7 @@ export function FooterWithLogo() {
                                     <svg
                                         viewBox="0 0 40 16"
                                         fill="currentColor"
-                                        className="w-10 h-5 fill-current md:w-20 md:h-10"
+                                        className="fill-current w-20 h-10"
                                     >
                                         <path
                                             fill="currentColor"
