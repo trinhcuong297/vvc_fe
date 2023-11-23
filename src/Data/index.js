@@ -275,6 +275,20 @@ const Project_Data = [
         }, link: ""
     },
     {
+        img_url: "https://cdn.thesaigontimes.vn/wp-content/uploads/2022/05/minh-hoa-bai-nha-gia-re-1.jpg",
+        cover: "Chung cư Lô R4, R5 thuộc Khu tái định cư 38,4ha, phường An Khánh, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+        post: {
+            head: "Dự án được xây dựng khang trang, với cơ sở hạ tầng đầy đủ, hệ thống giao thông hoàn thiện.",
+            check1: `Quy mô dự án: 31.800m2`,
+            check2: `11 block chung cư 
+            <br/> • Tổng số căn hộ: 1.570 căn hộ
+            <br/> • Hệ thống thang máy, sảnh chờ, hầm để xe
+            <br/> • Cơ sở hạ tầng hoàn thiện`,
+            check3: `Đầy đủ tiện ích: kiot dịch vụ, công viên`
+
+        },
+    },
+    {
         img_url: "https://jobsgo.vn/media/img/employer/10574-cover-app.jpg",
         cover: "Trương Định Plaza",
         post: {
