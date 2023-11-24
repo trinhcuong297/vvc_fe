@@ -287,6 +287,7 @@ const Project_Data = [
             check3: `Đầy đủ tiện ích: kiot dịch vụ, công viên`
 
         },
+        link: ""
     },
     {
         img_url: "https://jobsgo.vn/media/img/employer/10574-cover-app.jpg",
