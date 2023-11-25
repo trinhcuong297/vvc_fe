@@ -16,13 +16,13 @@ const Home_Data = {
         right1: `
         &nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVCG”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!
 <br/><br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động được 7 năm, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hồ Chí Minh và Hà Nội. Với quy mô doanh nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự chuyên nghiệp cũng như phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện. Để duy trì niềm tin nơi khách hàng, VVCG nhận thấy chất lượng nhân sự là yếu tố cốt lõi để doanh nghiệp có thể phát triển bền vững chính vì thế VVCG đã mở các lớp đào tạo nguồn nhân sự nội bộ vững mạnh để cung cấp cho các dự án cùng các chính sách đặc biệt trong suốt thời gian hoạt động, do vậy VVCG đã thu hút được rất nhiều nhân sự có bề dày kinh nghiệm làm việc tại các tập đoàn bất động sản quốc tế lớn cũng như các tập đoàn xây dựng có tên tuổi về đầu quân.
+    &nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động được 7 năm, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hồ Chí Minh và Hà Nội. Với quy mô doanh nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVCG đã ngày càng khẳng định sự chuyên nghiệp cũng như phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện. Để duy trì niềm tin nơi khách hàng, VVCG nhận thấy chất lượng nhân sự là yếu tố cốt lõi để doanh nghiệp có thể phát triển bền vững chính vì thế VVCG đã mở các lớp đào tạo nguồn nhân sự nội bộ vững mạnh để cung cấp cho các dự án cùng các chính sách đặc biệt trong suốt thời gian hoạt động, do vậy VVCG đã thu hút được rất nhiều nhân sự có bề dày kinh nghiệm làm việc tại các tập đoàn bất động sản quốc tế lớn cũng như các tập đoàn xây dựng có tên tuổi về đầu quân.
 <br/> <br/>   &nbsp;&nbsp;&nbsp;&nbsp;Hơn ai hết, VVCG hiểu rằng “sự hài lòng của khách hàng là thước đo năng lực của VVCG”. VVCG tin tưởng và quyết tâm tiếp tục mang lại cho Quý Khách Hàng những công trình và dịch vụ thi công/ quản lý vận hành tốt nhất,an toàn lao động, an ninh trật tự, vệ sinh môi trường . VVCG hy vọng, những năm tiếp theo sẽ tiếp tục được mở rộng liên kết, đồng hành với Quý Khách hàng và Đối tác để cùng nhau hợp tác,nắm bắt cơ hội và mang lại những thành công mới vượt bậc hơn nữa,góp phần xây dựng đất nước giàu mạnh.
         `,
         right2: `
         &nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVCG”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!
 <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động được 7 năm, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hồ Chí Minh và Hà Nội. Với quy mô doanh nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự chuyên nghiệp cũng như phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện.       `
+    &nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động được 7 năm, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hồ Chí Minh và Hà Nội. Với quy mô doanh nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVCG đã ngày càng khẳng định sự chuyên nghiệp cũng như phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện.       `
     },
     Feature: {
         title: "LĨNH VỰC KINH DOANH",
@@ -62,10 +62,10 @@ const About_Data = {
         }
     ],
     Intro: {
-        left: "Về VVC Green",
+        left: "VỀ VVCG",
         right: `&nbsp;&nbsp;&nbsp;&nbsp;Công ty TNHH VVC GREEN, với tên thương hiệu: “VVCG”, xin gửi tới Quý Khách hàng lời chào trân trọng và lời chúc tốt đẹp nhất. Kính chúc Quý Khánh hàng và gia đình sức khỏe, thành công và hạnh phúc trong cuộc sống!
 <br/><br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động được 7 năm, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hồ Chí Minh và Hà Nội. Với quy mô doanh nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVC đã ngày càng khẳng định sự chuyên nghiệp cũng như phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện. Để duy trì niềm tin nơi khách hàng, VVCG nhận thấy chất lượng nhân sự là yếu tố cốt lõi để doanh nghiệp có thể phát triển bền vững chính vì thế VVCG đã mở các lớp đào tạo nguồn nhân sự nội bộ vững mạnh để cung cấp cho các dự án cùng các chính sách đặc biệt trong suốt thời gian hoạt động, do vậy VVCG đã thu hút được rất nhiều nhân sự có bề dày kinh nghiệm làm việc tại các tập đoàn bất động sản quốc tế lớn cũng như các tập đoàn xây dựng có tên tuổi về đầu quân.
+    &nbsp;&nbsp;&nbsp;&nbsp;VVCG đã xác định rõ ràng sứ mệnh từ những ngày đầu tiên: “TRAO GIÁ TRỊ - TẠO NIỀM TIN”. Do vậy, VVCG luôn cố gắng mang lại những giá trị đích thực cho khách hàng và tạo dựng được niềm tin với khách hàng từ những điều đơn giản nhất. Mặc dù chỉ mới thành lập và hoạt động được 7 năm, nhưng VVCG đã bước những bước đi vững chắc, tạo dựng được thương hiệu và uy tín trong cả lĩnh vực quản lý vận hành và thi công cơ điện ở thị trường Thành phố Hồ Chí Minh và Hà Nội. Với quy mô doanh nghiệp cũng như uy tín của doanh nghiệp đối với khách hàng, VVCG đã ngày càng khẳng định sự chuyên nghiệp cũng như phát triển không ngừng trong cả hai mảng quản lý vận hành và thi công cơ điện. Để duy trì niềm tin nơi khách hàng, VVCG nhận thấy chất lượng nhân sự là yếu tố cốt lõi để doanh nghiệp có thể phát triển bền vững chính vì thế VVCG đã mở các lớp đào tạo nguồn nhân sự nội bộ vững mạnh để cung cấp cho các dự án cùng các chính sách đặc biệt trong suốt thời gian hoạt động, do vậy VVCG đã thu hút được rất nhiều nhân sự có bề dày kinh nghiệm làm việc tại các tập đoàn bất động sản quốc tế lớn cũng như các tập đoàn xây dựng có tên tuổi về đầu quân.
 <br/> <br/>   &nbsp;&nbsp;&nbsp;&nbsp;Hơn ai hết, VVCG hiểu rằng “sự hài lòng của khách hàng là thước đo năng lực của VVCG”. VVCG tin tưởng và quyết tâm tiếp tục mang lại cho Quý Khách Hàng những công trình và dịch vụ thi công/ quản lý vận hành tốt nhất,an toàn lao động, an ninh trật tự, vệ sinh môi trường . VVCG hy vọng, những năm tiếp theo sẽ tiếp tục được mở rộng liên kết, đồng hành với Quý Khách hàng và Đối tác để cùng nhau hợp tác,nắm bắt cơ hội và mang lại những thành công mới vượt bậc hơn nữa,góp phần xây dựng đất nước giàu mạnh.
         `
     },
@@ -123,12 +123,15 @@ const About_Data = {
             "https://static.topcv.vn/company_logos/BpyfgZeW7FATRinwX760vmZoEaronLTX_1646360385____fd31d2a57fe71e8b9335b94f63adb0ef.png",
             "https://thuonghieumanh.vneconomy.vn/upload/TBSGroup.png",
             "https://static.wixstatic.com/media/9d8ed5_810e9e3b7fad40eca3ec5087da674662~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-            "https://static.ybox.vn/2021/2/5/1613134068043-Untitled%20design%20(3).png",
             "https://binhduongconstruction.com/wp-content/uploads/2019/11/logo-austdoor.png",
             "https://angiainvestment.com/wp-content/uploads/2018/03/Coteccons-Logo-2014.jpg",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4ndJrQ7oDezPufiGCvcTLEvyCnfxbUoYeIvYnsWSqbNBVxm8Yf0_1ko_Cs4HztpfTg&usqp=CAU",
             "https://upload.wikimedia.org/wikipedia/vi/thumb/9/98/Vingroup_logo.svg/1280px-Vingroup_logo.svg.png",
             "https://bienquangcaohaiphongblog.files.wordpress.com/2015/12/nutifood-logo.png",
+            "https://cdn.haitrieu.com/wp-content/uploads/2023/07/Logo-Bim-Group-Green.png",
+            "https://cdn.nhanlucnganhluat.vn/uploads/images/F4A9AB0C/logo/2018-11/cong-ty-co-phan-thuong-mai-dau-tu-va-xay-dung-constrexim.jpg",
+            "https://www.saokim.com.vn/blog/wp-content/uploads/2022/04/logo-dong-do-corp-do-sao-kim-branding-thiet-ke.jpg.webp",
+            "https://haiphatgroup.net/wp-content/uploads/2020/11/z1996883930948_5e45ee37cbd04aaa4d8003ef4404c985.png",
+            "https://lequangthanh.net/wp-content/uploads/2021/10/logo-geleximco.jpg"
         ]
     }
 }
@@ -263,7 +266,7 @@ const Hero_news = {
 const Project_Data = [
     {
         img_url: "https://chungcuhn24h.net/wp-content/uploads/2017/09/chung-cu-can-bo-chien-sy-bo-cong-an-2.jpg",
-        cover: "Khu NOXH cho CBCS Bộ Công an",
+        cover: "EPIC Home - Bộ Công an",
         post: {
             head: "Dự án chung cư CBCS Bộ Công an nằm trong quần thể khu đô thị Thành phố Giao Lưu với hạ tầng đồng bộ với đầy đủ tiện ích sẽ đem lại cho cư dân cuộc sống tốt nhất."
             , check1: `Quy mô dự án: 45.537m2. Tổng diện tích xây dựng 10.166m2
@@ -272,7 +275,7 @@ const Project_Data = [
             <br/> • 03 tầng hầm, 05 tầng thương mại, dịch vụ`
             , check2: `Nhiều tiện ích cho người sử dụng , phù hợp với mọi lứa tuổi: Bể bơi 4 mùa, phòng tập yoga, khu vui chơi, TTTM, cafe trên mái, khu BBQ ngoài trời...`
 
-        }, link: ""
+        }, link: "HN"
     },
     {
         img_url: "https://cdn.thesaigontimes.vn/wp-content/uploads/2022/05/minh-hoa-bai-nha-gia-re-1.jpg",
@@ -287,7 +290,7 @@ const Project_Data = [
             check3: `Đầy đủ tiện ích: kiot dịch vụ, công viên`
 
         },
-        link: ""
+        link: "TP.HCM"
     },
     {
         img_url: "https://jobsgo.vn/media/img/employer/10574-cover-app.jpg",
@@ -298,11 +301,11 @@ const Project_Data = [
             check2: "Tổng diện tích sàn(kể cả tầng hầm): 16.682 m2",
             check3: "Tổng diện tích sàn các phần nổi: 10.820 m"
         },
-        link: ""
+        link: "HN"
     },
     {
-        img_url: "https://file4.batdongsan.com.vn/2015/11/10/hmcVYWuR/20151110134007-fda2.jpg",
-        cover: "Cụm nhà chung cư TNT CT1, CT2 Tây Mỗ",
+        img_url: "https://www.minhlongsecurity.com/wp-content/uploads/2017/08/bao-ve-khu-do-thi-vigaracela-dai-mo.jpg",
+        cover: "Cụm nhà chung cư CT1, CT2 Tây Mỗ",
         post: {
             head: "Thuộc Khu Đô thị Đại Mỗ, được xây dựng theo mô hình khu nhà ở khép kín với các dịch vụ tiện ích phục vụ nhu cầu sinh hoạt hàng ngày cho cư dân đô thị, cung cấp hàng trăm căn hộ giá rẻ với chất lượng tốt."
             , check1: `Quy mô dự án: 1.897m2`
@@ -311,7 +314,7 @@ const Project_Data = [
             <br/> • 02 khu dịch vụ, 02 tầng hầm, 02 khu sinh hoạt cộng đồng`
             , check3: `Các căn hộ được thiết kế tiện nghi, hiện đại, tận dụng thông thoáng tự nhiên`
 
-        }, link: ""
+        }, link: "HN"
     },
     {
         img_url: "https://chungcunamhanoi.com/wp-content/uploads/2017/06/tong-quan-du-an-new-horizon-city.jpg",
@@ -326,7 +329,7 @@ const Project_Data = [
             <br/> • 01 khối đế, 02 tầng hầm với bãi đỗ xe rộng 30.000m2`
             , check3: `Không gian sống lý tưởng với nhiều tiện ích: Hệ thống siêu thị, TTTM, phòng khám, phòng gym&spa, shophouse...`
 
-        }, link: ""
+        }, link: "HN"
     },
     {
         img_url: "https://mipeccityview.vn/wp-content/uploads/2020/07/phoi-canh-tong-the-khu-du-an-can-ho-mipec-city-view.jpg",
@@ -341,7 +344,7 @@ const Project_Data = [
             , check3: `Các tiện ích đạt chuẩn vượt trội: Nhà hàng ẩm thực, quán cafe, TTTM, spa, phòng tập yoga...`
 
         },
-        link: ""
+        link: "HN"
     },
 
     {
@@ -356,7 +359,7 @@ const Project_Data = [
             <br/> • 02 tầng hầm`
             , check2: `Đầy đủ những chức năng, dịch vụ tiện nghi hàng đầu như: TTTM sầm uất, siêu thị mini, phòng tập gym, trường mẫu giáo, công viên cây xanh...`
 
-        }, link: ""
+        }, link: "HN"
     },
 
 
@@ -373,7 +376,7 @@ const Project_Data = [
             <br/> • 01 tầng hầm, 03 tầng thương mại, dịch vụ`
             , check2: `Tiện ích: Trường học, spa, trung tâm thương mại, chuỗi siêu thị bán lẻ, dịch vụ chăm sóc sức khỏe...`
 
-        }, link: ""
+        }, link: "HN"
     },
 
     {
@@ -388,7 +391,7 @@ const Project_Data = [
             <br/> • 03 tầng hầm, 03 tầng thương mại, dịch vụ và văn phòng`
             , check2: `Hơn 30 tiện ích nội khu sang trọng: Phòng sinh hoạt cộng đồng, vườn hoa, siêu thị, khu cafe, nhà hàng, phòng tập gym, spa và khu văn phòng...`
 
-        }, link: ""
+        }, link: "HN"
     },
     {
         img_url: "https://i2.wp.com/ia20ciputra.net/wp-content/uploads/2018/10/cropped-gate-ciputra-ha-noi-1.jpg?fit=1200%2C480&ssl=1",
@@ -402,7 +405,7 @@ const Project_Data = [
             <br/> • 03 tầng hầm, 03 tầng thương mại, dịch vụ và văn phòng`
             , check2: `Hơn 30 tiện ích nội khu sang trọng: Phòng sinh hoạt cộng đồng, vườn hoa, siêu thị, khu cafe, nhà hàng, phòng tập gym, spa và khu văn phòng...`
 
-        }, link: ""
+        }, link: "HN"
     },
     {
         img_url: "https://duongquoccuongbds.com/wp-content/uploads/2016/07/chung-cu-artemis-le-trong-tan.jpg",
@@ -415,10 +418,10 @@ const Project_Data = [
             <br/> • 03 tầng hầm, 08 tầng thương mại, dịch vụ và văn phòng`
             , check2: `Hàng loạt những tiện ích đa dạng, đồng bộ: TTTM, bể bơi 4 mùa, khu vui chơi giải trí, khu ẩm thực, nhiều ngân hàng lớn...`
 
-        }, link: ""
+        }, link: "HN"
     },
     {
-        img_url: "https://cdn-merchant.vinid.net/images/gallery/omre_trang_tin_tuc/image_upload_1696948465_1.jpg",
+        img_url: "https://cdn.homedy.com/store/img/2016/05/06/phoi-canh-635981294704903260.jpg",
         cover: "Tổ hợp chung cư SME Hoàng Gia",
         post: {
             head: "Cung cấp dịch vụ quản lý vận hành nhà chung cư",
@@ -436,26 +439,9 @@ const Project_Data = [
             check2: "",
             check3: ""
         },
-        link: ""
+        link: "HN"
     },
-    {
-        img_url: "https://file.maumau.vn/public/nhadatvui/0/1680484874076/6a8ac6a5-e57a-4550-9034-15f748ecf5dc.jpg",
-        cover: "Tổ hợp TTTM, Chung cư, văn phòng cho thuê Tòa nhà SME Hoàng Gia",
-        detail: `Tòa nhà SME Hoàng Gia là dự án tổ hợp trung tâm thương mại, căn hộ chung cư, văn phòng cho thuê với phong cách thiết kế kiến trúc hiện đại và thiết bị nội thất cao cấp.
-Đây là tòa nhà duy nhất tại khu vực quận Hà Đông được Bộ Quốc phòng cấp phép cho đỗ máy bay trực thăng tại nóc tòa nhà.
-• Quy mô dự án:
-+ Tổng diện tích đất: 2.272 m2
-+ Diện tích đất xây dựng: 1200 m2
-+ Số tầng: 38 tầng
-+ Sở hữu nhiều tiện ích công cộng: Nhà hàng, hệ thống TTTM, spa, Khu vui chơi giải trí, hệ thống trường học, bệnh viện … `,
-        post: {
-            head: "Tòa nhà SME Hoàng Gia là dự án tổ hợp trung tâm thương mại, căn hộ chung cư, văn phòng cho thuê với phong cách thiết kế kiến trúc hiện đại và thiết bị nội thất cao cấp. Đây là tòa nhà duy nhất tại khu vực quận Hà Đông được Bộ Quốc phòng cấp phép cho đỗ máy bay trực thăng tại nóc tòa nhà.",
-            check1: "Tổng diện tích đất: 2.272 m2 với 1200 m2 đất xây dựng",
-            check2: "Số tầng: 38 tầng",
-            check3: "Sở hữu nhiều tiện ích công cộng: Nhà hàng, hệ thống TTTM, spa, Khu vui chơi giải trí, hệ thống trường học, bệnh viện …"
-        },
-        link: ""
-    },
+
     {
         img_url: "https://bizweb.dktcdn.net/100/328/216/files/image.jpg?v=1617681076305",
         cover: "Chung cư cao cấp Mulberry Lane",
@@ -472,7 +458,7 @@ const Project_Data = [
             check2: "Tổng số căn hộ: 1.478 căn hộ",
             check3: "Dự án chung cư Mulberry Lane được ví như một thành phố thu nhỏ với đầy đủ tiện ích toàn diện: Hồ bơi trẻ em, khu tắm trắng, khu tập Gym, khu tập thể dục thể thao…."
         },
-        link: ""
+        link: "HN"
     },
 
     {
@@ -493,7 +479,7 @@ const Project_Data = [
             check2: "01 tòa tháp cao 35 tầng, 03 tầng hầm. Tổng số căn hộ: 270 căn hộ.",
             check3: "Hệ thống tiện ích nội khu chất lượng gồm: bể bơi, spa, khu phòng gym, TTTM, vườn hoa, khu sinh hoạt cộng đồng, đường đi bộ, nhà trẻ, hệ thống thang máy hiện đại."
         },
-        link: ""
+        link: "HN"
     },
 
     {
@@ -512,7 +498,7 @@ const Project_Data = [
             check2: "02 tòa tháp cao 27 tầng (25 tầng căn hộ + 02 tầng TTTM, dịch vụ), 03 tầng hầm có sức chứa lớn",
             check3: "Sở hữu hệ thống tiện ích hiện đại: Trung tâm thể thao, bể bơi bốn mùa, khu massage và spa đẳng cấp..."
         },
-        link: ""
+        link: "HN"
     },
 
     {
@@ -529,7 +515,7 @@ const Project_Data = [
             check2: "02 tòa tháp 26 tầng trong đó có 01 tầng hầm, 03 tầng TTTM, 22 tầng căn hộ. Tổng số căn hộ: 800 căn hộ",
             check3: "Hội tụ đầy đủ các dịch vụ tiện ích: Trường mầm non, đài phun nước, phòng khám, sân tennis, vườn hoa, công viên cây xanh, siêu thị, nhà hàng..."
         },
-        link: ""
+        link: "HN"
     },
 
     {
@@ -548,7 +534,7 @@ const Project_Data = [
             check2: "02 tòa tháp 32 tầng trong đó có 01 tầng hầm, 04 tầng TTTM, dịch vụ. Tổng số căn hộ: 748 căn hộ",
             check3: "Mang đến cho Cư dân cuộc sống đẳng cấp, phong cách châu Âu với đầy đủ tiện nghi: TTTM, khu nhà trẻ, hệ thống Spa, Gym, nhà hàng, trung tâm y tế, vườn nghỉ dưỡng trên cao, bể bơi ngoài trời..."
         },
-        link: ""
+        link: "HN"
 
     },
 
@@ -568,7 +554,7 @@ const Project_Data = [
             check2: "02 tòa tháp 34 tầng trong đó có 03 tầng hầm, 05 tầng TTTM, dịch vụ. Tổng số căn hộ: 1300 căn hộ",
             check3: "Không gian sống hiện đại, tiện nghi với đầy đủ những tiện ích phục vụ dân sinh: TTTM, vườn hoa, công viên cây xanh, siêu thị, nhà hàng, hệ thống trường học, bể bơi bốn mùa, khu vui chơi trẻ em, sân tennis..."
         },
-        link: ""
+        link: "HN"
 
     },
 
@@ -587,7 +573,7 @@ const Project_Data = [
             check2: "23 tòa được xây dựng từ 21-45 tầng. Quy mô dân số toàn khu: 9700 người",
             check3: "Được quy hoạch đồng bộ với hệ thống cảnh quan cây xanh thoáng mát cộng hưởng hệ thống tiện ích dịch vụ nội ngoại khu đồng bộ mang đến cuộc sống tiện nghi bậc nhất cho cư dân: TTTM, phòng tập yoga, gym, spa, hệ thống trường học, khu phức hợp thể thao..."
         },
-        link: ""
+        link: "HN"
     },
 
     {
@@ -605,11 +591,10 @@ const Project_Data = [
             check2: "02 tòa tháp cao 27 tầng, 03 tầng hầm để xe. Tổng số căn hộ: 370 căn hộ và 16 biệt thự đơn lập",
             check3: "Tiện ích: chỗ chơi cho trẻ nhỏ, sân tennis, trung tâm thể dục thể thao 2 tầng, bể bơi ngoài trời, sân bóng chuyền bãi biển nhân tạo, khu tập luyện đánh golf, 02 sân tennis, 02 sân cầu lông, khu nấu ăn ngoài trời..."
         },
-        link: ""
+        link: "HN"
     },
 ]
 const Video_Data = [
-    "https://www.youtube.com/embed/8CfgLdyR4hg",
     "https://www.youtube.com/embed/Iy3QdXbjqmk",
     "https://www.youtube.com/embed/MEI7ykykORg",
     "https://www.youtube.com/embed/lPDeeraQuZg",

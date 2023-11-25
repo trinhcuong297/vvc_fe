@@ -236,7 +236,7 @@ export default function AboutUs() {
                             src={e}
                             className="lg:m-2 object-contain"
                         />
-                        <div className="absolute inset-0 grid h-full w-full place-items-center backdrop-saturate-0 hover:backdrop-saturate-100"></div>
+                        <div className="absolute inset-0 grid h-full w-full place-items-center  hover:backdrop-saturate-100"></div>
                     </div>
                 })}
 
