@@ -606,7 +606,7 @@ export default function Home() {
         </Carousel>
 
       </section>
-      <section className="text-gray-800 w-full py-12 flex flex-col items-center">
+      <section className="text-gray-800 w-full py-12 flex flex-col items-center hidden lg:flex">
         <div className="container mx-auto p-4 mt-6 space-y-2 text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
           <Typography
             variant="h1"
