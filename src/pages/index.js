@@ -606,7 +606,7 @@ export default function Home() {
         </Carousel>
 
       </section>
-      <section className="text-gray-800 w-full py-12 flex flex-col items-center hidden lg:flex">
+      {/* <section className="text-gray-800 w-full py-12 flex flex-col items-center hidden">
         <div className="container mx-auto p-4 mt-6 space-y-2 text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:bg-yellow-400 before:drop-shadow-[0_5px_5px_rgba(255,255,153,0.8)]">
           <Typography
             variant="h1"
@@ -621,7 +621,7 @@ export default function Home() {
           <iframe className="overflow-scroll rounded-xl m-3" width="500" height="780" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhannguyen.vvc%2Fposts%2Fpfbid02KviESD5YcykJpGpNn7oWAH9bo5z4nz6GdqpEifE9NZFFHzE3RPebFHTY3d1yudBml&show_text=true&width=500" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           <iframe className="overflow-scroll rounded-xl m-3" width="500" height="780" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhannguyen.vvc%2Fposts%2Fpfbid02Q9LqMRKp1ahzjZQNFTVdyHgfeKUi7gbDzvc28CwjBgCGS8ox6LXZFP8NRcfL6EZ2l&show_text=true&width=500" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
-      </section>
+      </section> */}
     </div >
   </>
 }
