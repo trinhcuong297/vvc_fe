@@ -56,7 +56,7 @@ export default function Home() {
   }, []);
 
   return <>
-    <Meta title="VVC - Công ty TNHH VVC Green" description="Công ty TNHH VVC Green - Bảo trì, bảo dưỡng, vận hành tòa nhà" />
+    <Meta title="VVC - Công ty TNHH VVC Green" description="Công ty TNHH VVC Green - Trang chủ" />
     <div className="flex flex-col items-center bg-[#092e4a]">
       <Carousel
         className="h-screen"
